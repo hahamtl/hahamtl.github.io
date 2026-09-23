@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('posts', p => !p.data.draft)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const fmt = d => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+---
+<Base path="/">
+  <h1>Writing</h1>
+  <p class="lede">Twenty years in software testing, the last stretch spent building the tooling and the AI that let a QA team keep up with AI-speed development. Short posts, one idea each.</p>
+  <ul class="posts">
+    {posts.map(p => (
+      <li>
+        <a class="t" href={`/posts/${p.id}/`}>{p.data.title}</a>
+        <div class="d">{fmt(p.data.date)}{p.data.tags.map(t => <span class="tag" style="margin-left:.5rem;background:var(--accent-soft);color:var(--accent);border-radius:99px;padding:.05rem .6rem;font-size:.78rem">{t}</span>)}</div>
+        <p>{p.data.description}</p>
+      </li>
+    ))}
+  </ul>
+</Base>
