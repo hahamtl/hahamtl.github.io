@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 const posts = (await getCollection('posts', p => !p.data.draft)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-const fmt = d => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+const fmt = d => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 ---
 <Base path="/">
   <h1>Writing</h1>
