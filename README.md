@@ -1,4 +1,4 @@
-# hahamtl.github.io
+# linzhu1989.github.io
 
 Lin Zhu's writing — Markdown posts in `src/content/posts/`, built with Astro, deployed to GitHub Pages by the workflow in `.github/workflows/`.
 
