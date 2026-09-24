@@ -1,7 +1,7 @@
 ---
 title: "Agent 的三种形态：从 Bedrock API 到 AgentCore 再到 Claude Code 插件"
 description: "同一类 Agent，我一年里用三种方式做过：围着 Bedrock API 手写循环、迁到 Bedrock AgentCore、最后缩成一个 Claude Code 插件里的几份 markdown。三种形态各自解决什么、卡在哪，以及唯一三次都没变的东西。"
-date: 2026-09-24
+date: 2026-07-19
 tags: [agents, architecture]
 cover: /img/three-shapes/cover.zh.svg
 ---

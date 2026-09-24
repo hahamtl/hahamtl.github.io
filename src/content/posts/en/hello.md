@@ -1,7 +1,7 @@
 ---
 title: "Why I am writing this down"
 description: "A notebook from an engineer who spent the last year building internal tooling and AI agents. Short posts, one idea each."
-date: 2026-09-23
+date: 2026-06-28
 tags: [meta]
 ---
 
