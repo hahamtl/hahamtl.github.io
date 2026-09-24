@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <rect width="1200" height="440" fill="#fbfbf9"/>
+  <text x="60" y="48" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">Agent 周边的工具</text>
+  <text x="640" y="48" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">最近 30 天谁打开过</text>
+  <text x="1000" y="48" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">处理</text>
+  <g font-size="14.5" fill="#182420">
+    <!-- row template: y -->
+    <rect x="60" y="70" width="540" height="44" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="80" y="98">工单 → 方案的命令</text>
+    <rect x="640" y="70" width="320" height="44" rx="10" fill="#e3f2ea"/><text x="800" y="98" text-anchor="middle" fill="#0e7a4d" font-weight="600">每个用户 · 每天</text>
+    <rect x="1000" y="70" width="140" height="44" rx="10" fill="#0e7a4d"/><text x="1070" y="98" text-anchor="middle" fill="#ffffff" font-weight="700">保留</text>
+
+    <rect x="60" y="124" width="540" height="44" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="80" y="152">help 命令</text>
+    <rect x="640" y="124" width="320" height="44" rx="10" fill="#e3f2ea"/><text x="800" y="152" text-anchor="middle" fill="#0e7a4d" font-weight="600">所有人 · 而且慢</text>
+    <rect x="1000" y="124" width="140" height="44" rx="10" fill="#0e7a4d"/><text x="1070" y="152" text-anchor="middle" fill="#ffffff" font-weight="700">保留 · 改成秒开</text>
+
+    <rect x="60" y="178" width="540" height="44" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="80" y="206">进度看板</text>
+    <rect x="640" y="178" width="320" height="44" rx="10" fill="#faf0da"/><text x="800" y="206" text-anchor="middle" fill="#a06b12" font-weight="600">三个开发者</text>
+    <rect x="1000" y="178" width="140" height="44" rx="10" fill="#f8e6e6" stroke="#a13333"/><text x="1070" y="206" text-anchor="middle" fill="#a13333" font-weight="700">砍</text>
+
+    <rect x="60" y="232" width="540" height="44" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="80" y="260">反馈生成流程</text>
+    <rect x="640" y="232" width="320" height="44" rx="10" fill="#faf0da"/><text x="800" y="260" text-anchor="middle" fill="#a06b12" font-weight="600">三个开发者</text>
+    <rect x="1000" y="232" width="140" height="44" rx="10" fill="#f8e6e6" stroke="#a13333"/><text x="1070" y="260" text-anchor="middle" fill="#a13333" font-weight="700">砍</text>
+
+    <rect x="60" y="286" width="540" height="44" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="80" y="314">沙箱协议</text>
+    <rect x="640" y="286" width="320" height="44" rx="10" fill="#eef1ee"/><text x="800" y="314" text-anchor="middle" fill="#7f8a84" font-weight="600">一个开发者 · 两次</text>
+    <rect x="1000" y="286" width="140" height="44" rx="10" fill="#f8e6e6" stroke="#a13333"/><text x="1070" y="314" text-anchor="middle" fill="#a13333" font-weight="700">砍</text>
+
+    <rect x="60" y="340" width="540" height="44" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="80" y="368">辅助脚本（环境检查、安装）</text>
+    <rect x="640" y="340" width="320" height="44" rx="10" fill="#eef1ee"/><text x="800" y="368" text-anchor="middle" fill="#7f8a84" font-weight="600">没人 · 都是自动跑的</text>
+    <rect x="1000" y="340" width="140" height="44" rx="10" fill="#f8e6e6" stroke="#a13333"/><text x="1070" y="368" text-anchor="middle" fill="#a13333" font-weight="700">砍</text>
+  </g>
+  <text x="600" y="418" text-anchor="middle" font-size="14" fill="#7f8a84">插件发出去比原仓库还小 · 没人问过那些东西去了哪</text>
+</svg>

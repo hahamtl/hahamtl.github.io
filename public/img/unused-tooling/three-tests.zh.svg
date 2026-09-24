@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker>
+  <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#a13333"/></marker></defs>
+  <rect width="1200" height="360" fill="#fbfbf9"/>
+  <rect x="40" y="110" width="150" height="70" rx="12" fill="#182420"/><text x="115" y="140" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="700">一个内部工具</text><text x="115" y="160" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="700">的想法</text>
+  <path d="M192 145 h38" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+  <g font-size="14" fill="#182420">
+    <rect x="232" y="100" width="220" height="90" rx="12" fill="#faf0da" stroke="#a06b12" stroke-width="1.5"/>
+    <text x="342" y="126" text-anchor="middle" font-size="12" fill="#a06b12" font-weight="700">第一道门</text>
+    <text x="342" y="150" text-anchor="middle" font-weight="600">说出一个人的名字</text>
+    <text x="342" y="171" text-anchor="middle" font-size="12.5" fill="#44524c">下个月会为一件真实任务打开它</text>
+    <path d="M454 145 h38" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="494" y="100" width="220" height="90" rx="12" fill="#faf0da" stroke="#a06b12" stroke-width="1.5"/>
+    <text x="604" y="126" text-anchor="middle" font-size="12" fill="#a06b12" font-weight="700">第二道门</text>
+    <text x="604" y="150" text-anchor="middle" font-weight="600">一条命令安装</text>
+    <text x="604" y="171" text-anchor="middle" font-size="12.5" fill="#44524c">配置页就是漏斗，人会掉出去</text>
+    <path d="M716 145 h38" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="756" y="100" width="220" height="90" rx="12" fill="#faf0da" stroke="#a06b12" stroke-width="1.5"/>
+    <text x="866" y="126" text-anchor="middle" font-size="12" fill="#a06b12" font-weight="700">第三道门</text>
+    <text x="866" y="150" text-anchor="middle" font-weight="600">第一天就埋点</text>
+    <text x="866" y="171" text-anchor="middle" font-size="12.5" fill="#44524c">每个产出带"是谁产出的"标记</text>
+    <path d="M978 145 h38" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="1018" y="110" width="140" height="70" rx="12" fill="#0e7a4d"/><text x="1088" y="152" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="700">动手</text>
+  </g>
+  <!-- fail paths -->
+  <path d="M342 192 v60" fill="none" stroke="#a13333" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <path d="M604 192 v60" fill="none" stroke="#a13333" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <path d="M866 192 v60" fill="none" stroke="#a13333" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <rect x="232" y="256" width="744" height="60" rx="12" fill="#f8e6e6" stroke="#a13333" stroke-dasharray="6 4"/>
+  <text x="604" y="281" text-anchor="middle" font-size="14" fill="#a13333" font-weight="700">先别做</text>
+  <text x="604" y="302" text-anchor="middle" font-size="12.5" fill="#44524c">或者：只给自己做，说清楚，并计划删除</text>
+  <text x="600" y="344" text-anchor="middle" font-size="13" fill="#7f8a84">没过门是信息，不是判决</text>
+</svg>
