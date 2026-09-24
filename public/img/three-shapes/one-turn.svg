@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker>
+    <style>
+      .you{fill:#e3f2ea;stroke:#0e7a4d;stroke-width:2}
+      .them{fill:#ffffff;stroke:#c9d0cb;stroke-width:1.5}
+      .model{fill:#182420;stroke:none}
+      .person{fill:#faf0da;stroke:#a06b12;stroke-width:1.5}
+      .t{font-size:13px;fill:#182420;text-anchor:middle}
+      .tw{font-size:13px;fill:#ffffff;text-anchor:middle;font-weight:600}
+      .ty{font-size:13px;fill:#0e7a4d;text-anchor:middle;font-weight:600}
+      .lbl{font-size:15px;fill:#182420;font-weight:700}
+      .sub{font-size:12.5px;fill:#7f8a84}
+      .ln{stroke:#7f8a84;stroke-width:1.6;fill:none;marker-end:url(#ar)}
+    </style>
+  </defs>
+  <rect width="1200" height="560" fill="#fbfbf9"/>
+
+  <!-- legend -->
+  <rect x="40" y="22" width="16" height="16" rx="4" class="you"/><text x="64" y="35" font-size="13" fill="#4a5651">what you write</text>
+  <rect x="190" y="22" width="16" height="16" rx="4" class="them"/><text x="214" y="35" font-size="13" fill="#4a5651">someone else's runtime</text>
+  <rect x="390" y="22" width="16" height="16" rx="4" class="model"/><text x="414" y="35" font-size="13" fill="#4a5651">the model</text>
+  <rect x="500" y="22" width="16" height="16" rx="4" class="person"/><text x="524" y="35" font-size="13" fill="#4a5651">a person</text>
+
+  <!-- ROW 1 -->
+  <text x="40" y="92" class="lbl">Shape one</text><text x="40" y="110" class="sub">a loop around an API · 4 of 7 boxes are yours</text>
+  <rect x="40" y="128" width="110" height="52" rx="10" class="person"/><text x="95" y="159" class="t">person asks</text>
+  <path d="M152 154 h28" class="ln"/>
+  <rect x="182" y="128" width="130" height="52" rx="10" class="you"/><text x="247" y="151" class="ty">load state</text><text x="247" y="168" class="t">from your DB</text>
+  <path d="M314 154 h28" class="ln"/>
+  <rect x="344" y="128" width="110" height="52" rx="10" class="model"/><text x="399" y="159" class="tw">model call</text>
+  <path d="M456 154 h28" class="ln"/>
+  <rect x="486" y="128" width="150" height="52" rx="10" class="you"/><text x="561" y="151" class="ty">parse answer</text><text x="561" y="168" class="t">pick a tool</text>
+  <path d="M638 154 h28" class="ln"/>
+  <rect x="668" y="128" width="110" height="52" rx="10" class="them"/><text x="723" y="159" class="t">run the tool</text>
+  <path d="M780 154 h28" class="ln"/>
+  <rect x="810" y="128" width="130" height="52" rx="10" class="you"/><text x="875" y="151" class="ty">save state</text><text x="875" y="168" class="t">retry if it failed</text>
+  <path d="M942 154 h28" class="ln"/>
+  <rect x="972" y="128" width="150" height="52" rx="10" class="you"/><text x="1047" y="151" class="ty">done yet?</text><text x="1047" y="168" class="t">if not, loop</text>
+  <path d="M1047 182 v22 H247 v-22" class="ln"/>
+
+  <!-- ROW 2 -->
+  <text x="40" y="262" class="lbl">Shape two</text><text x="40" y="280" class="sub">a managed runtime · your part is text the runtime reads</text>
+  <rect x="40" y="298" width="110" height="52" rx="10" class="person"/><text x="95" y="329" class="t">person asks</text>
+  <path d="M152 324 h28" class="ln"/>
+  <rect x="182" y="298" width="620" height="52" rx="10" class="them"/>
+  <text x="492" y="321" class="t">the harness: session · memory · tool calling · identity · retries · long-running work</text>
+  <text x="492" y="339" class="sub" text-anchor="middle">it calls the model and the tools for you</text>
+  <path d="M804 324 h28" class="ln"/>
+  <rect x="834" y="298" width="110" height="52" rx="10" class="model"/><text x="889" y="329" class="tw">model call</text>
+  <path d="M946 324 h28" class="ln"/>
+  <rect x="976" y="298" width="146" height="52" rx="10" class="them"/><text x="1049" y="329" class="t">run the tool</text>
+  <rect x="352" y="366" width="280" height="44" rx="10" class="you"/><text x="492" y="386" class="ty">instructions + tool contracts</text><text x="492" y="402" class="t">when to stop and ask</text>
+  <path d="M492 364 v-12" class="ln"/>
+
+  <!-- ROW 3 -->
+  <text x="40" y="452" class="lbl">Shape three</text><text x="40" y="470" class="sub">a folder of text files · the person approves every write</text>
+  <rect x="40" y="488" width="110" height="52" rx="10" class="person"/><text x="95" y="519" class="t">person asks</text>
+  <path d="M152 514 h28" class="ln"/>
+  <rect x="182" y="488" width="200" height="52" rx="10" class="them"/><text x="282" y="511" class="t">assistant on the laptop</text><text x="282" y="528" class="sub" text-anchor="middle">reads your folder</text>
+  <path d="M384 514 h28" class="ln"/>
+  <rect x="414" y="488" width="150" height="52" rx="10" class="you"/><text x="489" y="511" class="ty">instructions.md</text><text x="489" y="528" class="t">tools · a script or two</text>
+  <path d="M566 514 h28" class="ln"/>
+  <rect x="596" y="488" width="110" height="52" rx="10" class="model"/><text x="651" y="519" class="tw">model call</text>
+  <path d="M708 514 h28" class="ln"/>
+  <rect x="738" y="488" width="170" height="52" rx="10" class="person"/><text x="823" y="511" class="t">"about to write this,</text><text x="823" y="528" class="t">go ahead?"</text>
+  <path d="M910 514 h28" class="ln"/>
+  <rect x="940" y="488" width="182" height="52" rx="10" class="them"/><text x="1031" y="511" class="t">run the tool</text><text x="1031" y="528" class="sub" text-anchor="middle">with the person's credentials</text>
+</svg>
