@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <rect width="1200" height="400" fill="#fbfbf9"/>
+  <g font-size="12" fill="#7f8a84"><text x="80" y="60">2014</text><text x="1120" y="60" text-anchor="end">2026</text></g>
+  <g font-size="14" fill="#182420">
+    <rect x="80" y="76" width="240" height="120" rx="14" fill="#ffffff" stroke="#e4e8e4"/>
+    <text x="200" y="104" text-anchor="middle" font-size="12" letter-spacing="2" fill="#7f8a84" font-weight="600">阶段一</text>
+    <text x="200" y="130" text-anchor="middle" font-weight="700">自动化框架</text>
+    <text x="200" y="154" text-anchor="middle" font-size="12.5" fill="#44524c">摩擦：重复</text>
+    <text x="200" y="176" text-anchor="middle" font-size="12.5" fill="#7f8a84">成功：有人提交了</text>
+    <rect x="346" y="76" width="240" height="120" rx="14" fill="#ffffff" stroke="#e4e8e4"/>
+    <text x="466" y="104" text-anchor="middle" font-size="12" letter-spacing="2" fill="#7f8a84" font-weight="600">阶段二</text>
+    <text x="466" y="130" text-anchor="middle" font-weight="700">内部工具 · 共享服务</text>
+    <text x="466" y="154" text-anchor="middle" font-size="12.5" fill="#44524c">摩擦：拿不到</text>
+    <text x="466" y="176" text-anchor="middle" font-size="12.5" fill="#7f8a84">成功：有人依赖了</text>
+    <rect x="612" y="76" width="240" height="120" rx="14" fill="#ffffff" stroke="#e4e8e4"/>
+    <text x="732" y="104" text-anchor="middle" font-size="12" letter-spacing="2" fill="#7f8a84" font-weight="600">阶段三</text>
+    <text x="732" y="130" text-anchor="middle" font-weight="700">平台 · tool server</text>
+    <text x="732" y="154" text-anchor="middle" font-size="12.5" fill="#44524c">摩擦：系统之间的缝</text>
+    <text x="732" y="176" text-anchor="middle" font-size="12.5" fill="#7f8a84">成功：有人接进来了</text>
+    <rect x="878" y="76" width="242" height="120" rx="14" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+    <text x="999" y="104" text-anchor="middle" font-size="12" letter-spacing="2" fill="#0e7a4d" font-weight="600">阶段四</text>
+    <text x="999" y="130" text-anchor="middle" font-weight="700">AI Agent</text>
+    <text x="999" y="154" text-anchor="middle" font-size="12.5" fill="#44524c">摩擦：速度</text>
+    <text x="999" y="176" text-anchor="middle" font-size="12.5" fill="#7f8a84">成功：有人留下了草稿</text>
+  </g>
+  <g font-size="11.5" fill="#7f8a84">
+    <text x="200" y="222" text-anchor="middle">测试自动化开发</text>
+    <text x="466" y="222" text-anchor="middle">高级自动化 · SDET</text>
+    <text x="732" y="222" text-anchor="middle">高级 SDET · 工具负责人</text>
+    <text x="999" y="222" text-anchor="middle">staff 工程师 · AI 赋能</text>
+  </g>
+  <rect x="80" y="262" width="1040" height="6" rx="3" fill="#0e7a4d"/>
+  <text x="600" y="306" text-anchor="middle" font-size="17" fill="#182420" font-weight="700">找到人和系统之间的摩擦，把它去掉</text>
+  <text x="600" y="330" text-anchor="middle" font-size="13" fill="#7f8a84">上面四个头衔 · 底下一条线</text>
+  <text x="600" y="372" text-anchor="middle" font-size="12.5" fill="#7f8a84">工具在变：脚本 → 框架 → 服务 → 接口 → Agent · 工作没变</text>
+</svg>

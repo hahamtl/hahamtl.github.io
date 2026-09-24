@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#a13333"/></marker></defs>
+  <rect width="1200" height="420" fill="#fbfbf9"/>
+  <line x1="80" y1="150" x2="1120" y2="150" stroke="#c9d0cb" stroke-width="3"/>
+  <text x="80" y="128" font-size="12" fill="#7f8a84">七月</text><text x="1120" y="128" text-anchor="end" font-size="12" fill="#7f8a84">九月</text>
+  <g font-size="13.5" fill="#182420">
+    <circle cx="200" cy="150" r="10" fill="#a13333"/>
+    <rect x="80" y="176" width="240" height="96" rx="12" fill="#ffffff" stroke="#e4e8e4"/>
+    <text x="200" y="202" text-anchor="middle" font-weight="700">被吞掉的 thread 回复</text>
+    <text x="200" y="224" text-anchor="middle" font-size="12.5" fill="#44524c">"threading 的问题"</text>
+    <text x="200" y="252" text-anchor="middle" font-size="12.5" fill="#0e7a4d">修法：路由表加一行</text>
+    <circle cx="600" cy="150" r="10" fill="#a13333"/>
+    <rect x="480" y="176" width="240" height="96" rx="12" fill="#ffffff" stroke="#e4e8e4"/>
+    <text x="600" y="202" text-anchor="middle" font-weight="700">被捍卫的过期文档</text>
+    <text x="600" y="224" text-anchor="middle" font-size="12.5" fill="#44524c">"记忆的问题"</text>
+    <text x="600" y="252" text-anchor="middle" font-size="12.5" fill="#0e7a4d">修法：重评必须重拉文档</text>
+    <circle cx="1000" cy="150" r="10" fill="#a13333"/>
+    <rect x="880" y="176" width="240" height="96" rx="12" fill="#ffffff" stroke="#e4e8e4"/>
+    <text x="1000" y="202" text-anchor="middle" font-weight="700">编造的代码引用 ×2</text>
+    <text x="1000" y="224" text-anchor="middle" font-size="12.5" fill="#44524c">"幻觉"</text>
+    <text x="1000" y="252" text-anchor="middle" font-size="12.5" fill="#a13333" font-weight="600">正要再加规则……有人说：同一个 bug</text>
+  </g>
+  <path d="M200 274 v40" fill="none" stroke="#a13333" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <path d="M600 274 v40" fill="none" stroke="#a13333" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <path d="M1000 274 v40" fill="none" stroke="#a13333" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#r)"/>
+  <rect x="80" y="318" width="1040" height="70" rx="14" fill="#f8e6e6" stroke="#a13333" stroke-width="2"/>
+  <text x="600" y="346" text-anchor="middle" font-size="15" fill="#a13333" font-weight="700">三次的真正原因</text>
+  <text x="600" y="370" text-anchor="middle" font-size="13.5" fill="#182420">路由表认不出的请求全落进通用兜底，跳过了为它们造的能力</text>
+</svg>

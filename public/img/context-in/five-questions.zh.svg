@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="300" fill="#fbfbf9"/>
+  <g font-size="13" fill="#182420">
+    <rect x="40" y="60" width="120" height="60" rx="12" fill="#f8e6e6" stroke="#a13333"/><text x="100" y="95" text-anchor="middle" font-weight="700" fill="#a13333">答案错了</text>
+    <path d="M162 90 h26" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="190" y="52" width="170" height="76" rx="12" fill="#182420"/><text x="275" y="83" text-anchor="middle" fill="#ffffff" font-weight="700">打开实际输入</text><text x="275" y="104" text-anchor="middle" fill="#cfd8d3" font-size="12">模型拿到的，不是你打算发的</text>
+    <path d="M362 90 h26" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <g>
+      <rect x="390" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="455" y="86" text-anchor="middle" font-weight="700">1 · 在不在？</text><text x="455" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">事实到底在没在</text>
+      <path d="M522 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="542" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="607" y="86" text-anchor="middle" font-weight="700">2 · 分开没？</text><text x="607" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">和邻居分开了没</text>
+      <path d="M674 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="694" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="759" y="86" text-anchor="middle" font-weight="700">3 · 形状对吗？</text><text x="759" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">人读会不会读错</text>
+      <path d="M826 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="846" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="911" y="86" text-anchor="middle" font-weight="700">4 · 工具诚实吗？</text><text x="911" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">零结果、空壳</text>
+      <path d="M978 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="998" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="1063" y="86" text-anchor="middle" font-weight="700">5 · 规则在吗？</text><text x="1063" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">这一轮真加载了吗</text>
+    </g>
+  </g>
+  <path d="M1063 122 v40" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+  <rect x="948" y="164" width="230" height="52" rx="12" fill="#ffffff" stroke="#a13333" stroke-dasharray="5 4"/>
+  <text x="1063" y="186" text-anchor="middle" font-size="12.5" fill="#a13333" font-weight="700">五个都干净？现在才能说"模型"</text>
+  <text x="1063" y="206" text-anchor="middle" font-size="11.5" fill="#7f8a84">做好很少走到这里的准备</text>
+  <path d="M455 122 v40 H900" fill="none" stroke="#0e7a4d" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <rect x="390" y="164" width="520" height="52" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/>
+  <text x="650" y="186" text-anchor="middle" font-size="12.5" fill="#182420" font-weight="600">十次里九次，查到这里就结束</text>
+  <text x="650" y="206" text-anchor="middle" font-size="11.5" fill="#44524c">加载 · 分开 · 重排 · 修工具 · 把规则挪到一定会读的地方</text>
+  <text x="600" y="270" text-anchor="middle" font-size="13" fill="#7f8a84">prompt 写严是祈祷 · 修输入是工程</text>
+</svg>

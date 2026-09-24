@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="300" fill="#fbfbf9"/>
+  <g font-size="13" fill="#182420">
+    <rect x="40" y="60" width="120" height="60" rx="12" fill="#f8e6e6" stroke="#a13333"/><text x="100" y="95" text-anchor="middle" font-weight="700" fill="#a13333">wrong answer</text>
+    <path d="M162 90 h26" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="190" y="52" width="170" height="76" rx="12" fill="#182420"/><text x="275" y="83" text-anchor="middle" fill="#ffffff" font-weight="700">open the exact input</text><text x="275" y="104" text-anchor="middle" fill="#cfd8d3" font-size="12">what it got, not what you meant</text>
+    <path d="M362 90 h26" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <g>
+      <rect x="390" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="455" y="86" text-anchor="middle" font-weight="700">1 · present?</text><text x="455" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">is the fact there at all</text>
+      <path d="M522 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="542" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="607" y="86" text-anchor="middle" font-weight="700">2 · separated?</text><text x="607" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">from its neighbours</text>
+      <path d="M674 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="694" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="759" y="86" text-anchor="middle" font-weight="700">3 · well-shaped?</text><text x="759" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">would a reader parse it</text>
+      <path d="M826 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="846" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="911" y="86" text-anchor="middle" font-weight="700">4 · tool truthful?</text><text x="911" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">zero hits, stubs</text>
+      <path d="M978 90 h18" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+      <rect x="998" y="60" width="130" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/><text x="1063" y="86" text-anchor="middle" font-weight="700">5 · rule present?</text><text x="1063" y="106" text-anchor="middle" font-size="11.5" fill="#44524c">actually loaded this turn</text>
+    </g>
+  </g>
+  <path d="M1063 122 v40" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+  <rect x="948" y="164" width="230" height="52" rx="12" fill="#ffffff" stroke="#a13333" stroke-dasharray="5 4"/>
+  <text x="1063" y="186" text-anchor="middle" font-size="12.5" fill="#a13333" font-weight="700">all five clean? only now: "the model"</text>
+  <text x="1063" y="206" text-anchor="middle" font-size="11.5" fill="#7f8a84">expect to get here rarely</text>
+  <path d="M455 122 v40 H900" fill="none" stroke="#0e7a4d" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <rect x="390" y="164" width="520" height="52" rx="12" fill="#e3f2ea" stroke="#0e7a4d"/>
+  <text x="650" y="186" text-anchor="middle" font-size="12.5" fill="#182420" font-weight="600">nine times in ten the investigation ends here</text>
+  <text x="650" y="206" text-anchor="middle" font-size="11.5" fill="#44524c">load it · split it · reshape it · fix the tool · move the rule to where it is always read</text>
+  <text x="600" y="270" text-anchor="middle" font-size="13" fill="#7f8a84">a stricter prompt is hope · fixing the input is engineering</text>
+</svg>

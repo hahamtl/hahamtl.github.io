@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="420" fill="#fbfbf9"/>
+  <g font-size="13">
+    <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">BEFORE</text>
+    <rect x="60" y="66" width="480" height="300" rx="16" fill="#ffffff" stroke="#e4e8e4"/>
+    <rect x="80" y="86" width="200" height="34" rx="8" fill="#eef1ee"/><text x="180" y="108" text-anchor="middle" fill="#182420" font-weight="600">router table</text>
+    <rect x="80" y="128" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb"/><text x="190" y="148" text-anchor="middle" fill="#44524c">thread message → thread handler</text>
+    <rect x="80" y="166" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb"/><text x="190" y="186" text-anchor="middle" fill="#44524c">review request → reviewer</text>
+    <rect x="80" y="204" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb"/><text x="190" y="224" text-anchor="middle" fill="#44524c">code question → code search</text>
+    <rect x="80" y="242" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb" stroke-dasharray="4 3"/><text x="190" y="262" text-anchor="middle" fill="#7f8a84">+ one row per incident…</text>
+    <text x="180" y="300" text-anchor="middle" fill="#7f8a84" font-size="12">anything else ↓</text>
+    <rect x="80" y="312" width="200" height="40" rx="8" fill="#f8e6e6" stroke="#a13333" stroke-width="2"/><text x="180" y="337" text-anchor="middle" fill="#a13333" font-weight="700">generic fallback</text>
+    <rect x="320" y="128" width="200" height="106" rx="10" fill="#e3f2ea" stroke="#0e7a4d"/><text x="420" y="160" text-anchor="middle" fill="#182420" font-weight="600">the capabilities</text><text x="420" y="182" text-anchor="middle" fill="#44524c" font-size="12">thread handler · reviewer</text><text x="420" y="200" text-anchor="middle" fill="#44524c" font-size="12">code search · document fetch</text>
+    <rect x="320" y="300" width="200" height="60" rx="10" fill="#ffffff" stroke="#a13333" stroke-dasharray="5 4"/><text x="420" y="325" text-anchor="middle" fill="#a13333" font-size="12.5">answers from general knowledge</text><text x="420" y="345" text-anchor="middle" fill="#a13333" font-size="12.5">no log · no question</text>
+    <path d="M282 332 h34" fill="none" stroke="#a13333" stroke-width="1.6" marker-end="url(#a)"/>
+  </g>
+  <line x1="600" y1="60" x2="600" y2="380" stroke="#e4e8e4"/>
+  <g font-size="13">
+    <text x="900" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">AFTER</text>
+    <rect x="660" y="66" width="480" height="300" rx="16" fill="#ffffff" stroke="#e4e8e4"/>
+    <rect x="680" y="86" width="200" height="34" rx="8" fill="#eef1ee"/><text x="780" y="108" text-anchor="middle" fill="#182420" font-weight="600">router table · unchanged</text>
+    <rect x="680" y="128" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb"/><text x="790" y="148" text-anchor="middle" fill="#44524c">thread message → thread handler</text>
+    <rect x="680" y="166" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb"/><text x="790" y="186" text-anchor="middle" fill="#44524c">review request → reviewer</text>
+    <rect x="680" y="204" width="220" height="30" rx="7" fill="#ffffff" stroke="#c9d0cb"/><text x="790" y="224" text-anchor="middle" fill="#44524c">code question → code search</text>
+    <text x="780" y="300" text-anchor="middle" fill="#7f8a84" font-size="12">anything else ↓</text>
+    <rect x="680" y="312" width="200" height="40" rx="8" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/><text x="780" y="337" text-anchor="middle" fill="#0e7a4d" font-weight="700">fallback, fixed once</text>
+    <rect x="920" y="128" width="200" height="106" rx="10" fill="#e3f2ea" stroke="#0e7a4d"/><text x="1020" y="160" text-anchor="middle" fill="#182420" font-weight="600">the capabilities</text><text x="1020" y="182" text-anchor="middle" fill="#44524c" font-size="12">thread handler · reviewer</text><text x="1020" y="200" text-anchor="middle" fill="#44524c" font-size="12">code search · document fetch</text>
+    <rect x="905" y="258" width="225" height="104" rx="10" fill="#ffffff" stroke="#0e7a4d"/>
+    <text x="1020" y="285" text-anchor="middle" fill="#182420" font-size="12.5" font-weight="600">names the closest capability, asks</text>
+    <text x="1020" y="308" text-anchor="middle" fill="#182420" font-size="12.5" font-weight="600">routes through the tool anyway</text>
+    <text x="1020" y="331" text-anchor="middle" fill="#182420" font-size="12.5" font-weight="600">logs the request shape</text>
+    <text x="1020" y="351" text-anchor="middle" fill="#7f8a84" font-size="11.5">next miss = a log row, not an incident</text>
+    <path d="M882 332 h20" fill="none" stroke="#0e7a4d" stroke-width="1.6" marker-end="url(#a)"/>
+  </g>
+  <text x="600" y="404" text-anchor="middle" font-size="13" fill="#7f8a84">fix the path the misses land in, not the missing row</text>
+</svg>
