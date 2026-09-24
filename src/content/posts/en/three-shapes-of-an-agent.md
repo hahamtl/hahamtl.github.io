@@ -17,7 +17,7 @@ This is the short version of what changed, and what I would keep.
 
 ## Shape one: a loop around the model API
 
-The first system was a set of assistants living in Slack. One read a requirements document and pointed out gaps. One drafted a technical plan. One opened pull requests. Under the hood every one of them was the same thing: a stateless call to a Claude model through the Bedrock API, wrapped in code we wrote ourselves.
+The first system was a handful of assistants living in Slack, each handling one kind of task: reading documents, drafting plans, changing code. Under the hood every one of them was the same thing: a stateless call to a Claude model through the Bedrock API, wrapped in code we wrote ourselves.
 
 Stateless is the important word. The model remembers nothing between calls, cannot run a tool, and stops whenever it stops. So the code around it had to supply everything else:
 
@@ -40,7 +40,7 @@ The cost was a boundary. When something went wrong we debugged through AWS abstr
 
 ## Shape three: a folder of text files
 
-The third one I would not have predicted. An agent that helps engineers plan and write tests, shipped as a Claude Code plugin, so it runs inside the coding assistant they already had open. No service behind it, no queue. A folder of markdown files with instructions, a list of MCP tools it may call, and a couple of scripts. The runtime is Claude Code on the person's laptop. The credentials are the person's own.
+The third one I would not have predicted. An agent that helps engineers write tests, shipped as a Claude Code plugin, so it runs inside the coding assistant they already had open. No service behind it, no queue. A folder of markdown files with instructions, a list of MCP tools it may call, and a couple of scripts. The runtime is Claude Code on the person's laptop. The credentials are the person's own.
 
 That changes what "deploy" means. A new version is a version bump in the plugin marketplace. Permissions are whatever the user already has, no more. And because a person is sitting right there, the agent can stop and ask before every write to a shared system, which for shared systems is exactly the behaviour you want.
 

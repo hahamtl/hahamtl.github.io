@@ -57,13 +57,13 @@
   <text x="40" y="452" class="lbl">Shape three</text><text x="40" y="470" class="sub">Claude Code plugin · the person approves every write</text>
   <rect x="40" y="488" width="110" height="52" rx="10" class="person"/><text x="95" y="519" class="t">person asks</text>
   <path d="M152 514 h28" class="ln"/>
-  <rect x="182" y="488" width="200" height="52" rx="10" class="them"/><text x="282" y="511" class="t">Claude Code on the laptop</text><text x="282" y="528" class="sub" text-anchor="middle">reads your folder</text>
-  <path d="M384 514 h28" class="ln"/>
-  <rect x="414" y="488" width="150" height="52" rx="10" class="you"/><text x="489" y="511" class="ty">instructions.md</text><text x="489" y="528" class="t">MCP tools · a script or two</text>
-  <path d="M566 514 h28" class="ln"/>
-  <rect x="596" y="488" width="110" height="52" rx="10" class="model"/><text x="651" y="519" class="tw">model call</text>
-  <path d="M708 514 h28" class="ln"/>
-  <rect x="738" y="488" width="170" height="52" rx="10" class="person"/><text x="823" y="511" class="t">"about to write this,</text><text x="823" y="528" class="t">go ahead?"</text>
-  <path d="M910 514 h28" class="ln"/>
-  <rect x="940" y="488" width="182" height="52" rx="10" class="them"/><text x="1031" y="511" class="t">run the tool</text><text x="1031" y="528" class="sub" text-anchor="middle">with the person's credentials</text>
+  <rect x="182" y="488" width="190" height="52" rx="10" class="them"/><text x="277" y="511" class="t">Claude Code on the laptop</text><text x="277" y="528" class="sub" text-anchor="middle">reads your folder</text>
+  <path d="M374 514 h28" class="ln"/>
+  <rect x="404" y="488" width="200" height="52" rx="10" class="you"/><text x="504" y="511" class="ty">instructions.md</text><text x="504" y="528" class="t">MCP tools · a few scripts</text>
+  <path d="M606 514 h28" class="ln"/>
+  <rect x="636" y="488" width="100" height="52" rx="10" class="model"/><text x="686" y="519" class="tw">model call</text>
+  <path d="M738 514 h28" class="ln"/>
+  <rect x="768" y="488" width="170" height="52" rx="10" class="person"/><text x="853" y="511" class="t">"about to write this,</text><text x="853" y="528" class="t">go ahead?"</text>
+  <path d="M940 514 h28" class="ln"/>
+  <rect x="970" y="488" width="190" height="52" rx="10" class="them"/><text x="1065" y="511" class="t">run the tool</text><text x="1065" y="528" class="sub" text-anchor="middle">the person's own credentials</text>
 </svg>
