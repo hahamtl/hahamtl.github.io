@@ -1,14 +1,14 @@
 ---
 title: "Why I am writing this down"
-description: "A notebook from a staff QA who spent the last year building test tooling and AI agents. Short posts, one idea each."
+description: "A notebook from an engineer who spent the last year building internal tooling and AI agents. Short posts, one idea each."
 date: 2026-09-23
 tags: [meta]
 ---
 
-Twenty years in software testing teaches you one thing early: the interesting problems are never the test cases. They are the systems around them — who owns them, who trusts them, and what happens when the pace of change doubles.
+Most of my career has been spent one step away from the product: building the frameworks, the internal services and the automation that other engineers lean on. The interesting problems there were never the code. They were about who owns a system, who trusts it, and what happens when the pace of change doubles.
 
-This year the pace did double. Development teams got AI assistants, then AI agents, and the number of changes reaching QA went up while the number of testers stayed flat. I spent the year on the other side of that gap: building tooling, then an AI agent that plans and writes tests, with a person deciding at every step.
+This year the pace did double. Teams got AI assistants, then AI agents, and I spent the year building some of those agents and the tooling around them. A lot of it went differently from what I expected.
 
-I want to keep notes on what worked, what broke, and what I would do differently. Short posts, one idea each, written for other testers and for the engineers who build the tools we depend on. Nothing here is about a specific employer or product; the patterns are what matter.
+I want to keep notes on what worked, what broke, and what I would do differently. Short posts, one idea each, written for other engineers who build the things their teams depend on. Nothing here is about a specific employer or product. The patterns are what matter.
 
 If something here is useful, or wrong, tell me on LinkedIn.
