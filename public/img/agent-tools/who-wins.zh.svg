@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker>
+  <marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c9d0cb"/></marker></defs>
+  <rect width="1200" height="420" fill="#fbfbf9"/>
+  <!-- agent -->
+  <rect x="510" y="160" width="180" height="70" rx="14" fill="#182420"/>
+  <text x="600" y="190" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="700">Agent</text>
+  <text x="600" y="212" text-anchor="middle" font-size="12.5" fill="#cfd8d3">准备建一张工单</text>
+
+  <!-- left: instruction files -->
+  <text x="230" y="52" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">你的指令文件</text>
+  <text x="230" y="74" text-anchor="middle" font-size="12.5" fill="#7f8a84">只在做某类任务时加载</text>
+  <rect x="80" y="96" width="300" height="46" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="100" y="125" font-size="13.5" fill="#44524c">planning.md</text><text x="360" y="125" text-anchor="end" font-size="11.5" fill="#0e7a4d" font-weight="600">已加载</text>
+  <rect x="80" y="152" width="300" height="46" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="100" y="181" font-size="13.5" fill="#44524c">review.md</text><text x="360" y="181" text-anchor="end" font-size="11.5" fill="#0e7a4d" font-weight="600">已加载</text>
+  <rect x="80" y="208" width="300" height="70" rx="10" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="5 4"/>
+  <text x="100" y="234" font-size="13.5" fill="#7f8a84">ticket-rules.md</text><text x="360" y="234" text-anchor="end" font-size="11.5" fill="#a13333" font-weight="600">未加载</text>
+  <text x="100" y="262" font-size="13" fill="#a13333" font-weight="600">"描述字段必填"</text>
+  <rect x="80" y="288" width="300" height="46" rx="10" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="5 4"/><text x="100" y="317" font-size="13.5" fill="#7f8a84">automation.md</text><text x="360" y="317" text-anchor="end" font-size="11.5" fill="#a13333" font-weight="600">未加载</text>
+  <path d="M384 243 h110" fill="none" stroke="#c9d0cb" stroke-width="2.5" stroke-dasharray="6 5" marker-end="url(#x)"/>
+  <text x="440" y="232" text-anchor="middle" font-size="11.5" fill="#7f8a84">没读到</text>
+
+  <!-- right: tool definition -->
+  <text x="960" y="52" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">工具定义</text>
+  <text x="960" y="74" text-anchor="middle" font-size="12.5" fill="#7f8a84">每一次都在 Agent 眼前</text>
+  <rect x="800" y="96" width="320" height="238" rx="12" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <g font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="12.5" fill="#182420">
+    <text x="820" y="126">create_ticket</text>
+    <text x="820" y="150">  summary:      必填</text>
+    <text x="820" y="174">  project:      必填</text>
+    <text x="820" y="198" fill="#a13333" font-weight="700">  description:  可选</text>
+    <text x="820" y="222">  labels:       可选</text>
+  </g>
+  <text x="820" y="256" font-size="12.5" fill="#44524c">"在指定项目里创建一张工单。"</text>
+  <rect x="820" y="276" width="280" height="40" rx="8" fill="#ffffff" stroke="#0e7a4d"/>
+  <text x="960" y="292" text-anchor="middle" font-size="11" fill="#0e7a4d" font-weight="700">修法 · 就改这里一句</text>
+  <text x="960" y="308" text-anchor="middle" font-size="11.5" fill="#182420">description: 必填。说明改了什么、为什么。</text>
+  <path d="M694 195 h100" fill="none" stroke="#0e7a4d" stroke-width="2.5" marker-end="url(#g)"/>
+  <text x="745" y="184" text-anchor="middle" font-size="11.5" fill="#0e7a4d" font-weight="600">每次都读</text>
+
+  <text x="600" y="392" text-anchor="middle" font-size="14" fill="#7f8a84">两边不一致时，工具自己的措辞赢</text>
+</svg>

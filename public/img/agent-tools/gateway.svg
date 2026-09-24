@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="440" fill="#fbfbf9"/>
+  <!-- agents -->
+  <text x="150" y="52" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">AGENTS</text>
+  <rect x="60" y="80" width="180" height="50" rx="12" fill="#182420"/><text x="150" y="111" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="600">chat assistant</text>
+  <rect x="60" y="150" width="180" height="50" rx="12" fill="#182420"/><text x="150" y="181" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="600">nightly job</text>
+  <rect x="60" y="220" width="180" height="50" rx="12" fill="#182420"/><text x="150" y="251" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="600">coding-assistant plugin</text>
+  <path d="M242 105 h96" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+  <path d="M242 175 h96" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+  <path d="M242 245 h96" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+  <text x="290" y="290" text-anchor="middle" font-size="12" fill="#7f8a84">each call carries</text><text x="290" y="306" text-anchor="middle" font-size="12" fill="#7f8a84">who is asking</text>
+
+  <!-- gateway -->
+  <text x="490" y="52" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">THE GATEWAY</text>
+  <rect x="340" y="80" width="300" height="250" rx="16" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <g font-size="13.5" fill="#182420">
+    <rect x="360" y="100" width="260" height="60" rx="10" fill="#ffffff" stroke="#a06b12" stroke-width="1.5"/>
+    <text x="490" y="124" text-anchor="middle" font-weight="700">🔒 authenticate once, here</text>
+    <text x="490" y="146" text-anchor="middle" font-size="12" fill="#44524c">tools behind inherit the caller's identity</text>
+    <rect x="360" y="172" width="260" height="60" rx="10" fill="#ffffff" stroke="#0e7a4d"/>
+    <text x="490" y="196" text-anchor="middle" font-weight="700">normalise names</text>
+    <text x="490" y="218" text-anchor="middle" font-size="12" fill="#44524c" font-family="ui-monospace, SF Mono, Menlo, monospace">get_issue_Jira_ → jira_get_issue</text>
+    <rect x="360" y="244" width="260" height="70" rx="10" fill="#ffffff" stroke="#0e7a4d"/>
+    <text x="490" y="268" text-anchor="middle" font-weight="700">one tool surface</text>
+    <text x="490" y="290" text-anchor="middle" font-size="12" fill="#44524c">audit instructions against THIS,</text>
+    <text x="490" y="306" text-anchor="middle" font-size="12" fill="#44524c">never against upstream docs</text>
+  </g>
+  <path d="M642 205 h96" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+
+  <!-- upstream -->
+  <text x="940" y="52" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">UPSTREAM SYSTEMS</text>
+  <rect x="740" y="80" width="400" height="250" rx="16" fill="#ffffff" stroke="#e4e8e4"/>
+  <g font-size="13" fill="#182420">
+    <text x="760" y="108" font-size="12" fill="#7f8a84">read tools · wide</text>
+    <rect x="760" y="116" width="360" height="30" rx="8" fill="#eef1ee"/><text x="940" y="136" text-anchor="middle">search issues · read page · list files · get record</text>
+    <text x="760" y="176" font-size="12" fill="#7f8a84">write tools · narrow, one action each</text>
+    <rect x="760" y="184" width="110" height="30" rx="8" fill="#e3f2ea" stroke="#b9dcc9"/><text x="815" y="204" text-anchor="middle" font-size="12.5">add comment</text>
+    <rect x="885" y="184" width="110" height="30" rx="8" fill="#e3f2ea" stroke="#b9dcc9"/><text x="940" y="204" text-anchor="middle" font-size="12.5">create draft</text>
+    <rect x="1010" y="184" width="110" height="30" rx="8" fill="#e3f2ea" stroke="#b9dcc9"/><text x="1065" y="204" text-anchor="middle" font-size="12.5">update field</text>
+    <text x="760" y="246" font-size="12" fill="#a13333">dangerous · ask first or write a draft</text>
+    <rect x="760" y="254" width="110" height="30" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="815" y="274" text-anchor="middle" font-size="12.5">delete</text>
+    <rect x="885" y="254" width="110" height="30" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="940" y="274" text-anchor="middle" font-size="12.5">send message</text>
+    <rect x="1010" y="254" width="110" height="30" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="1065" y="274" text-anchor="middle" font-size="12.5">merge</text>
+    <text x="940" y="316" text-anchor="middle" font-size="12" fill="#7f8a84">ticketing · wiki · code host · internal services</text>
+  </g>
+
+  <!-- before -->
+  <rect x="60" y="360" width="1080" height="50" rx="10" fill="#f8e6e6" stroke="#a13333" stroke-dasharray="6 4"/>
+  <text x="600" y="381" text-anchor="middle" font-size="13" fill="#a13333" font-weight="700">what the security review found: two gateways with no lock at all</text>
+  <text x="600" y="399" text-anchor="middle" font-size="12" fill="#44524c">anyone who could reach the address could call any tool, with the gateway's own credentials</text>
+</svg>
