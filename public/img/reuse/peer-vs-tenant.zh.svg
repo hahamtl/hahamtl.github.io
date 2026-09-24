@@ -2,7 +2,7 @@
   <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker></defs>
   <rect width="1200" height="500" fill="#fbfbf9"/>
   <!-- LEFT: peer -->
-  <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">对等系统</text>
+  <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">另起一套</text>
   <text x="300" y="72" text-anchor="middle" font-size="20" fill="#182420" font-weight="700">你要多养六个系统</text>
   <text x="170" y="104" text-anchor="middle" font-size="12" fill="#7f8a84">已有的</text>
   <text x="430" y="104" text-anchor="middle" font-size="12" fill="#a13333" font-weight="600">归你养的</text>
