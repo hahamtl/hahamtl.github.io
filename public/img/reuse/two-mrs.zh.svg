@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="260" fill="#fbfbf9"/>
+  <text x="40" y="44" font-size="15" fill="#182420" font-weight="700">房租长什么样：改一个技能</text>
+  <g font-size="13.5" fill="#182420">
+    <rect x="40" y="80" width="200" height="70" rx="12" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/><text x="140" y="108" text-anchor="middle" font-weight="600">改技能</text><text x="140" y="130" text-anchor="middle" font-size="12" fill="#44524c">一份 markdown</text>
+    <path d="M242 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="278" y="80" width="200" height="70" rx="12" fill="#ffffff" stroke="#c9d0cb"/><text x="378" y="102" text-anchor="middle" font-weight="600">MR 1 · 共享技能库</text><text x="378" y="122" text-anchor="middle" font-size="12" fill="#44524c">守规矩：命名、评审</text><text x="378" y="139" text-anchor="middle" font-size="12" fill="#44524c">所有 Agent 产品都能看到</text>
+    <path d="M480 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="516" y="80" width="200" height="70" rx="12" fill="#ffffff" stroke="#c9d0cb"/><text x="616" y="102" text-anchor="middle" font-weight="600">MR 2 · 插件仓库</text><text x="616" y="122" text-anchor="middle" font-size="12" fill="#44524c">同步副本 · 写 changelog</text><text x="616" y="139" text-anchor="middle" font-size="12" fill="#44524c">宿主支持的最老 Python</text>
+    <path d="M718 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="754" y="80" width="200" height="70" rx="12" fill="#ffffff" stroke="#c9d0cb"/><text x="854" y="102" text-anchor="middle" font-weight="600">发版</text><text x="854" y="122" text-anchor="middle" font-size="12" fill="#44524c">宿主的节奏</text><text x="854" y="139" text-anchor="middle" font-size="12" fill="#44524c">升版本号、打 tag</text>
+    <path d="M956 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="992" y="80" width="168" height="70" rx="12" fill="#182420"/><text x="1076" y="108" text-anchor="middle" fill="#ffffff" font-weight="600">用户更新</text><text x="1076" y="130" text-anchor="middle" font-size="12" fill="#cfd8d3">一条命令</text>
+  </g>
+  <rect x="40" y="176" width="1120" height="52" rx="10" fill="#eef1ee"/>
+  <text x="600" y="197" text-anchor="middle" font-size="13" fill="#44524c">为了让这条链跑起来，你没有造的东西：</text>
+  <text x="600" y="217" text-anchor="middle" font-size="12.5" fill="#7f8a84">仓库 · 评审流程 · 发版流水线 · 分发渠道 · 更新机制 · changelog 格式</text>
+</svg>

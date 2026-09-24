@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker></defs>
+  <rect width="1200" height="500" fill="#fbfbf9"/>
+  <!-- LEFT: peer -->
+  <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">对等系统</text>
+  <text x="300" y="72" text-anchor="middle" font-size="20" fill="#182420" font-weight="700">你要多养六个系统</text>
+  <text x="170" y="104" text-anchor="middle" font-size="12" fill="#7f8a84">已有的</text>
+  <text x="430" y="104" text-anchor="middle" font-size="12" fill="#a13333" font-weight="600">归你养的</text>
+  <g font-size="12.5">
+    <rect x="70" y="114" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="136" text-anchor="middle" fill="#44524c">集成网关</text>
+    <rect x="330" y="114" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="136" text-anchor="middle" fill="#a13333">你的连接器</text>
+    <rect x="70" y="156" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="178" text-anchor="middle" fill="#44524c">共享技能库</text>
+    <rect x="330" y="156" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="178" text-anchor="middle" fill="#a13333">你的仓库</text>
+    <rect x="70" y="198" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="220" text-anchor="middle" fill="#44524c">插件 marketplace</text>
+    <rect x="330" y="198" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="220" text-anchor="middle" fill="#a13333">你的发版流水线</text>
+    <rect x="70" y="240" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="262" text-anchor="middle" fill="#44524c">建 PR 技能</text>
+    <rect x="330" y="240" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="262" text-anchor="middle" fill="#a13333">你的 PR 步骤</text>
+    <rect x="70" y="282" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="304" text-anchor="middle" fill="#44524c">测试管理工具</text>
+    <rect x="330" y="282" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="304" text-anchor="middle" fill="#a13333">你的测试存储</text>
+    <rect x="70" y="324" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="346" text-anchor="middle" fill="#44524c">自动化仓库</text>
+    <rect x="330" y="324" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="346" text-anchor="middle" fill="#a13333">你的新仓库</text>
+  </g>
+  <text x="300" y="392" text-anchor="middle" font-size="12.5" fill="#7f8a84">凭据 · 监控 · 值班 · 迁移 · ×6</text>
+  <text x="300" y="412" text-anchor="middle" font-size="12.5" fill="#7f8a84">每个改进做两遍，或者不做</text>
+
+  <line x1="600" y1="40" x2="600" y2="460" stroke="#e4e8e4"/>
+
+  <!-- RIGHT: tenant -->
+  <text x="900" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">租户</text>
+  <text x="900" y="72" text-anchor="middle" font-size="20" fill="#182420" font-weight="700">你拥有一个文本文件夹</text>
+  <rect x="780" y="100" width="240" height="70" rx="14" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="900" y="128" text-anchor="middle" font-size="15" fill="#182420" font-weight="700">新 Agent</text>
+  <text x="900" y="150" text-anchor="middle" font-size="12.5" fill="#0e7a4d">指令 · 工具名 · 几个脚本</text>
+  <g font-size="12.5">
+    <rect x="660" y="222" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="735" y="244" text-anchor="middle" fill="#44524c">集成网关</text>
+    <rect x="825" y="222" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="900" y="244" text-anchor="middle" fill="#44524c">共享技能库</text>
+    <rect x="990" y="222" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="1065" y="244" text-anchor="middle" fill="#44524c">插件 marketplace</text>
+    <rect x="660" y="292" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="735" y="314" text-anchor="middle" fill="#44524c">建 PR 技能</text>
+    <rect x="825" y="292" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="900" y="314" text-anchor="middle" fill="#44524c">测试管理工具</text>
+    <rect x="990" y="292" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="1065" y="314" text-anchor="middle" fill="#44524c">自动化仓库</text>
+  </g>
+  <path d="M900 172 v22 H735 v24" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M900 172 v46" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M900 172 v22 H1065 v24" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M735 258 v30" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M900 258 v30" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M1065 258 v30" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <text x="900" y="360" text-anchor="middle" font-size="12" fill="#7f8a84">六个都已经在跑 · 有人管 · 有监控</text>
+  <text x="900" y="392" text-anchor="middle" font-size="12.5" fill="#7f8a84">房租：守规矩、一次改动两个 MR、跟宿主的发版节奏</text>
+  <text x="900" y="412" text-anchor="middle" font-size="12.5" fill="#0e7a4d" font-weight="600">九周 · 两个人 · 没有属于你的东西会半夜报警</text>
+
+  <text x="600" y="472" text-anchor="middle" font-size="14" fill="#7f8a84">新架构图上的每个框，先问谁已经在跑一个</text>
+</svg>

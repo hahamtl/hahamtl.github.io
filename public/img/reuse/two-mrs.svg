@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="260" fill="#fbfbf9"/>
+  <text x="40" y="44" font-size="15" fill="#182420" font-weight="700">The rent, made concrete: one skill change</text>
+  <g font-size="13.5" fill="#182420">
+    <rect x="40" y="80" width="200" height="70" rx="12" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/><text x="140" y="108" text-anchor="middle" font-weight="600">edit the skill</text><text x="140" y="130" text-anchor="middle" font-size="12" fill="#44524c">one markdown file</text>
+    <path d="M242 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="278" y="80" width="200" height="70" rx="12" fill="#ffffff" stroke="#c9d0cb"/><text x="378" y="102" text-anchor="middle" font-weight="600">MR 1 · shared skills repo</text><text x="378" y="122" text-anchor="middle" font-size="12" fill="#44524c">house rules: naming, review</text><text x="378" y="139" text-anchor="middle" font-size="12" fill="#44524c">every agent product sees it</text>
+    <path d="M480 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="516" y="80" width="200" height="70" rx="12" fill="#ffffff" stroke="#c9d0cb"/><text x="616" y="102" text-anchor="middle" font-weight="600">MR 2 · plugin repo</text><text x="616" y="122" text-anchor="middle" font-size="12" fill="#44524c">sync the copy · changelog</text><text x="616" y="139" text-anchor="middle" font-size="12" fill="#44524c">oldest supported Python</text>
+    <path d="M718 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="754" y="80" width="200" height="70" rx="12" fill="#ffffff" stroke="#c9d0cb"/><text x="854" y="102" text-anchor="middle" font-weight="600">release</text><text x="854" y="122" text-anchor="middle" font-size="12" fill="#44524c">the host's cadence</text><text x="854" y="139" text-anchor="middle" font-size="12" fill="#44524c">version bump, tag</text>
+    <path d="M956 115 h34" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="992" y="80" width="168" height="70" rx="12" fill="#182420"/><text x="1076" y="108" text-anchor="middle" fill="#ffffff" font-weight="600">users update</text><text x="1076" y="130" text-anchor="middle" font-size="12" fill="#cfd8d3">one command</text>
+  </g>
+  <rect x="40" y="176" width="1120" height="52" rx="10" fill="#eef1ee"/>
+  <text x="600" y="197" text-anchor="middle" font-size="13" fill="#44524c">what you did NOT have to build for this to work:</text>
+  <text x="600" y="217" text-anchor="middle" font-size="12.5" fill="#7f8a84">a repo · a review process · a release pipeline · a distribution channel · an update mechanism · a changelog format</text>
+</svg>

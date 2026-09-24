@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker></defs>
+  <rect width="1200" height="500" fill="#fbfbf9"/>
+  <!-- LEFT: peer -->
+  <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">AS A PEER</text>
+  <text x="300" y="72" text-anchor="middle" font-size="20" fill="#182420" font-weight="700">you run six new systems</text>
+  <text x="170" y="104" text-anchor="middle" font-size="12" fill="#7f8a84">existing</text>
+  <text x="430" y="104" text-anchor="middle" font-size="12" fill="#a13333" font-weight="600">yours to run</text>
+  <g font-size="12.5">
+    <rect x="70" y="114" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="136" text-anchor="middle" fill="#44524c">integration gateway</text>
+    <rect x="330" y="114" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="136" text-anchor="middle" fill="#a13333">your connectors</text>
+    <rect x="70" y="156" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="178" text-anchor="middle" fill="#44524c">shared skills repo</text>
+    <rect x="330" y="156" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="178" text-anchor="middle" fill="#a13333">your repo</text>
+    <rect x="70" y="198" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="220" text-anchor="middle" fill="#44524c">plugin marketplace</text>
+    <rect x="330" y="198" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="220" text-anchor="middle" fill="#a13333">your release pipeline</text>
+    <rect x="70" y="240" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="262" text-anchor="middle" fill="#44524c">PR-creation skill</text>
+    <rect x="330" y="240" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="262" text-anchor="middle" fill="#a13333">your PR step</text>
+    <rect x="70" y="282" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="304" text-anchor="middle" fill="#44524c">test-management tool</text>
+    <rect x="330" y="282" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="304" text-anchor="middle" fill="#a13333">your test store</text>
+    <rect x="70" y="324" width="200" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="170" y="346" text-anchor="middle" fill="#44524c">automation repos</text>
+    <rect x="330" y="324" width="200" height="34" rx="8" fill="#f8e6e6" stroke="#a13333"/><text x="430" y="346" text-anchor="middle" fill="#a13333">your new repo</text>
+  </g>
+  <text x="300" y="392" text-anchor="middle" font-size="12.5" fill="#7f8a84">credentials · monitoring · on-call · migrations · ×6</text>
+  <text x="300" y="412" text-anchor="middle" font-size="12.5" fill="#7f8a84">every improvement made twice, or not at all</text>
+
+  <line x1="600" y1="40" x2="600" y2="460" stroke="#e4e8e4"/>
+
+  <!-- RIGHT: tenant -->
+  <text x="900" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">AS A TENANT</text>
+  <text x="900" y="72" text-anchor="middle" font-size="20" fill="#182420" font-weight="700">you own a folder of text</text>
+  <rect x="780" y="100" width="240" height="70" rx="14" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="900" y="128" text-anchor="middle" font-size="15" fill="#182420" font-weight="700">the new agent</text>
+  <text x="900" y="150" text-anchor="middle" font-size="12.5" fill="#0e7a4d">instructions · tool names · a few scripts</text>
+  <g font-size="12.5">
+    <rect x="660" y="222" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="735" y="244" text-anchor="middle" fill="#44524c">integration gateway</text>
+    <rect x="825" y="222" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="900" y="244" text-anchor="middle" fill="#44524c">shared skills repo</text>
+    <rect x="990" y="222" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="1065" y="244" text-anchor="middle" fill="#44524c">plugin marketplace</text>
+    <rect x="660" y="292" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="735" y="314" text-anchor="middle" fill="#44524c">PR-creation skill</text>
+    <rect x="825" y="292" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="900" y="314" text-anchor="middle" fill="#44524c">test-management tool</text>
+    <rect x="990" y="292" width="150" height="34" rx="8" fill="#ffffff" stroke="#c9d0cb"/><text x="1065" y="314" text-anchor="middle" fill="#44524c">automation repos</text>
+  </g>
+  <path d="M900 172 v22 H735 v24" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M900 172 v46" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M900 172 v22 H1065 v24" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M735 258 v30" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M900 258 v30" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <path d="M1065 258 v30" fill="none" stroke="#0e7a4d" stroke-width="1.8" marker-end="url(#g)"/>
+  <text x="900" y="360" text-anchor="middle" font-size="12" fill="#7f8a84">all six already run · already owned · already monitored</text>
+  <text x="900" y="392" text-anchor="middle" font-size="12.5" fill="#7f8a84">rent: house rules, two MRs per change, the host's release cadence</text>
+  <text x="900" y="412" text-anchor="middle" font-size="12.5" fill="#0e7a4d" font-weight="600">nine weeks · two people · nothing of yours to be paged for</text>
+
+  <text x="600" y="472" text-anchor="middle" font-size="14" fill="#7f8a84">for every box on the new diagram, ask who already runs one</text>
+</svg>
