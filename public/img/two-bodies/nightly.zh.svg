@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#a13333"/></marker></defs>
+  <rect width="1200" height="340" fill="#fbfbf9"/>
+  <!-- row 1 -->
+  <text x="40" y="52" font-size="15" fill="#182420" font-weight="700">发生了什么</text>
+  <text x="40" y="72" font-size="12.5" fill="#7f8a84">会话 id 从未变过 · 每次运行都接着上一场对话</text>
+  <rect x="40" y="88" width="1120" height="64" rx="12" fill="#f8e6e6" stroke="#a13333" stroke-dasharray="6 4"/>
+  <text x="1160" y="82" text-anchor="end" font-size="11.5" fill="#a13333" font-weight="700">session = abc123，整整一周</text>
+  <g font-size="13" fill="#182420">
+    <rect x="60" y="100" width="180" height="40" rx="9" fill="#ffffff" stroke="#e4e8e4"/><text x="150" y="118" text-anchor="middle" font-weight="600">周一</text><text x="150" y="133" text-anchor="middle" font-size="11.5" fill="#44524c">"失败：X"</text>
+    <path d="M242 120 h30" fill="none" stroke="#a13333" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="274" y="100" width="180" height="40" rx="9" fill="#ffffff" stroke="#e4e8e4"/><text x="364" y="118" text-anchor="middle" font-weight="600">周二</text><text x="364" y="133" text-anchor="middle" font-size="11.5" fill="#44524c">"又失败：X"</text>
+    <path d="M456 120 h30" fill="none" stroke="#a13333" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="488" y="100" width="180" height="40" rx="9" fill="#ffffff" stroke="#e4e8e4"/><text x="578" y="118" text-anchor="middle" font-weight="600">周三 · 清了记忆</text><text x="578" y="133" text-anchor="middle" font-size="11.5" fill="#44524c">"第三次：X"</text>
+    <path d="M670 120 h30" fill="none" stroke="#a13333" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="702" y="100" width="180" height="40" rx="9" fill="#ffffff" stroke="#e4e8e4"/><text x="792" y="118" text-anchor="middle" font-weight="600">周四 · 部署了修复</text><text x="792" y="133" text-anchor="middle" font-size="11.5" fill="#44524c">"第四次：X"</text>
+    <path d="M884 120 h30" fill="none" stroke="#a13333" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="916" y="100" width="180" height="40" rx="9" fill="#ffffff" stroke="#e4e8e4"/><text x="1006" y="118" text-anchor="middle" font-weight="600">周五</text><text x="1006" y="133" text-anchor="middle" font-size="11.5" fill="#44524c">"第五次：X"</text>
+  </g>
+  <!-- row 2 -->
+  <text x="40" y="204" font-size="15" fill="#182420" font-weight="700">修法</text>
+  <text x="40" y="224" font-size="12.5" fill="#7f8a84">会话 id 每次运行轮换 · 持久身份用另一个专门的 key</text>
+  <g font-size="13" fill="#182420">
+    <rect x="60" y="240" width="180" height="54" rx="9" fill="#e3f2ea" stroke="#0e7a4d"/><text x="150" y="260" text-anchor="middle" font-weight="600">周一</text><text x="150" y="277" text-anchor="middle" font-size="11" fill="#0e7a4d">session = r1</text>
+    <rect x="274" y="240" width="180" height="54" rx="9" fill="#e3f2ea" stroke="#0e7a4d"/><text x="364" y="260" text-anchor="middle" font-weight="600">周二</text><text x="364" y="277" text-anchor="middle" font-size="11" fill="#0e7a4d">session = r2</text>
+    <rect x="488" y="240" width="180" height="54" rx="9" fill="#e3f2ea" stroke="#0e7a4d"/><text x="578" y="260" text-anchor="middle" font-weight="600">周三</text><text x="578" y="277" text-anchor="middle" font-size="11" fill="#0e7a4d">session = r3</text>
+    <rect x="702" y="240" width="180" height="54" rx="9" fill="#e3f2ea" stroke="#0e7a4d"/><text x="792" y="260" text-anchor="middle" font-weight="600">周四</text><text x="792" y="277" text-anchor="middle" font-size="11" fill="#0e7a4d">session = r4</text>
+    <rect x="916" y="240" width="180" height="54" rx="9" fill="#e3f2ea" stroke="#0e7a4d"/><text x="1006" y="260" text-anchor="middle" font-weight="600">周五</text><text x="1006" y="277" text-anchor="middle" font-size="11" fill="#0e7a4d">session = r5</text>
+  </g>
+  <rect x="60" y="302" width="1036" height="22" rx="6" fill="#eef1ee"/><text x="578" y="318" text-anchor="middle" font-size="11.5" fill="#44524c">identity key = nightly-agent，故意保持不变</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker></defs>
+  <rect width="1200" height="480" fill="#fbfbf9"/>
+  <!-- brain -->
+  <rect x="440" y="170" width="320" height="120" rx="16" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="600" y="204" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">THE BRAIN</text>
+  <text x="600" y="232" text-anchor="middle" font-size="18" fill="#182420" font-weight="700">one skill file</text>
+  <text x="600" y="256" text-anchor="middle" font-size="13" fill="#44524c">what to read · what to decide · what to produce</text>
+  <text x="600" y="274" text-anchor="middle" font-size="12.5" fill="#7f8a84">shared, almost unchanged</text>
+  <path d="M436 230 h-16" fill="none" stroke="#0e7a4d" stroke-width="2.5" marker-end="url(#g)"/>
+  <path d="M764 230 h16" fill="none" stroke="#0e7a4d" stroke-width="2.5" marker-end="url(#g)"/>
+
+  <!-- left body -->
+  <rect x="40" y="60" width="370" height="360" rx="18" fill="#ffffff" stroke="#e4e8e4"/>
+  <text x="225" y="94" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">INTERACTIVE BODY</text>
+  <text x="225" y="122" text-anchor="middle" font-size="19" fill="#182420" font-weight="700">a person at a terminal</text>
+  <g font-size="13.5" fill="#182420">
+    <rect x="70" y="146" width="310" height="40" rx="9" fill="#faf0da" stroke="#e5cf9c"/><text x="225" y="172" text-anchor="middle">someone reads every line, live</text>
+    <rect x="70" y="196" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="225" y="222" text-anchor="middle">questions allowed · one batched round</text>
+    <rect x="70" y="246" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="225" y="272" text-anchor="middle">a gate before every write</text>
+    <rect x="70" y="296" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="225" y="322" text-anchor="middle">status must match reality · choices said aloud</text>
+    <rect x="70" y="346" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="225" y="372" text-anchor="middle">done = when the person says so</text>
+  </g>
+  <text x="225" y="408" text-anchor="middle" font-size="12.5" fill="#7f8a84">fits: the assistant on the laptop</text>
+
+  <!-- right body -->
+  <rect x="790" y="60" width="370" height="360" rx="18" fill="#ffffff" stroke="#e4e8e4"/>
+  <text x="975" y="94" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">AUTONOMOUS BODY</text>
+  <text x="975" y="122" text-anchor="middle" font-size="19" fill="#182420" font-weight="700">a scheduler at 3 a.m.</text>
+  <g font-size="13.5" fill="#182420">
+    <rect x="820" y="146" width="310" height="40" rx="9" fill="#eef1ee" stroke="#c9d0cb"/><text x="975" y="172" text-anchor="middle">nobody watching until morning</text>
+    <rect x="820" y="196" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="975" y="222" text-anchor="middle">no questions · missing input stops the run</text>
+    <rect x="820" y="246" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="975" y="272" text-anchor="middle">drafts, never promoted by the agent</text>
+    <rect x="820" y="296" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="975" y="322" text-anchor="middle">fresh session every run · fail loud</text>
+    <rect x="820" y="346" width="310" height="40" rx="9" fill="#f4f6f4"/><text x="975" y="372" text-anchor="middle">done = a state the system can verify</text>
+  </g>
+  <text x="975" y="408" text-anchor="middle" font-size="12.5" fill="#7f8a84">fits: a managed runtime or a scheduler</text>
+
+  <text x="600" y="456" text-anchor="middle" font-size="14" fill="#7f8a84">the brain is shared · the rules around it are written per body</text>
+</svg>
