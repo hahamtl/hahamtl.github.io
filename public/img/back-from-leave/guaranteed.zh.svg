@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <rect width="1200" height="420" fill="#fbfbf9"/>
+  <!-- old -->
+  <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">旧 runtime · 整个文件注入</text>
+  <rect x="120" y="66" width="360" height="270" rx="14" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="300" y="92" text-anchor="middle" font-size="12" fill="#0e7a4d" font-weight="700">下面所有内容每轮都读</text>
+  <g font-size="13" fill="#182420">
+    <rect x="140" y="106" width="320" height="40" rx="8" fill="#ffffff"/><text x="300" y="131" text-anchor="middle">简短描述</text>
+    <rect x="140" y="154" width="320" height="40" rx="8" fill="#ffffff"/><text x="300" y="179" text-anchor="middle" fill="#7f8a84">背景、例子…</text>
+    <rect x="140" y="202" width="320" height="40" rx="8" fill="#ffffff"/><text x="300" y="227" text-anchor="middle" fill="#7f8a84">更多背景…</text>
+    <rect x="140" y="250" width="320" height="40" rx="8" fill="#ffffff" stroke="#0e7a4d" stroke-width="2"/><text x="300" y="275" text-anchor="middle" font-weight="700">"永远不把状态设为就绪"</text>
+    <text x="300" y="318" text-anchor="middle" font-size="12" fill="#0e7a4d" font-weight="600">靠下的硬规则：一定会读</text>
+  </g>
+  <!-- new -->
+  <text x="900" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#a06b12" font-weight="600">新 runtime · 正文按需</text>
+  <rect x="720" y="66" width="360" height="52" rx="14" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="900" y="88" text-anchor="middle" font-size="12" fill="#0e7a4d" font-weight="700">永远加载</text>
+  <text x="900" y="106" text-anchor="middle" font-size="13" fill="#182420">简短描述</text>
+  <rect x="720" y="130" width="360" height="206" rx="14" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="6 4"/>
+  <text x="900" y="152" text-anchor="middle" font-size="12" fill="#7f8a84" font-weight="700">模型要才加载</text>
+  <g font-size="13">
+    <rect x="740" y="166" width="320" height="40" rx="8" fill="#ffffff" stroke="#e4e8e4"/><text x="900" y="191" text-anchor="middle" fill="#7f8a84">背景、例子…</text>
+    <rect x="740" y="214" width="320" height="40" rx="8" fill="#ffffff" stroke="#e4e8e4"/><text x="900" y="239" text-anchor="middle" fill="#7f8a84">更多背景…</text>
+    <rect x="740" y="262" width="320" height="40" rx="8" fill="#f8e6e6" stroke="#a13333" stroke-width="2"/><text x="900" y="287" text-anchor="middle" fill="#a13333" font-weight="700">"永远不把状态设为就绪"</text>
+    <text x="900" y="322" text-anchor="middle" font-size="12" fill="#a13333" font-weight="600">同一条规则，现在只是「可用」· 经常没被读</text>
+  </g>
+  <rect x="120" y="360" width="960" height="44" rx="10" fill="#faf0da" stroke="#a06b12"/>
+  <text x="600" y="388" text-anchor="middle" font-size="13" fill="#182420"><tspan font-weight="700">修法：</tspan>承重规则挪进永远加载的那层 · 描述改成决定性路由（"什么时候读正文"）</text>
+</svg>

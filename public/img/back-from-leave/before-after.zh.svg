@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker></defs>
+  <rect width="1200" height="440" fill="#fbfbf9"/>
+  <rect x="60" y="40" width="1080" height="54" rx="12" fill="#182420"/>
+  <text x="600" y="74" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="700">产品：同一个聊天界面，同一批助手，同样的名字</text>
+  <text x="300" y="130" text-anchor="middle" font-size="13" letter-spacing="2" fill="#7f8a84" font-weight="600">休假前</text>
+  <text x="900" y="130" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">三周后</text>
+  <g font-size="14">
+    <rect x="60" y="146" width="480" height="52" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="300" y="178" text-anchor="middle" fill="#44524c">runtime：自己手写的进程内 API 循环</text>
+    <rect x="660" y="146" width="480" height="52" rx="10" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="1.5"/><text x="900" y="178" text-anchor="middle" fill="#182420">托管 runtime · 每个 Agent 一份配置 + 人设</text>
+    <rect x="60" y="210" width="480" height="52" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="300" y="242" text-anchor="middle" fill="#44524c">指令：复制在应用仓库里</text>
+    <rect x="660" y="210" width="480" height="52" rx="10" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="1.5"/><text x="900" y="242" text-anchor="middle" fill="#182420">共享指令仓库，唯一的家</text>
+    <rect x="60" y="274" width="480" height="52" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="300" y="306" text-anchor="middle" fill="#44524c">集成：每个 Agent 自己接</text>
+    <rect x="660" y="274" width="480" height="52" rx="10" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="1.5"/><text x="900" y="306" text-anchor="middle" fill="#182420">中间一个共享 tools server</text>
+    <rect x="60" y="338" width="480" height="52" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="300" y="370" text-anchor="middle" fill="#44524c">加载：整个指令文件，每轮注入</text>
+    <rect x="660" y="338" width="480" height="52" rx="10" fill="#faf0da" stroke="#a06b12" stroke-width="1.5"/><text x="900" y="370" text-anchor="middle" fill="#182420">描述永远加载 · 正文按需</text>
+  </g>
+  <g fill="none" stroke="#0e7a4d" stroke-width="2" marker-end="url(#g)"><path d="M548 172 h104"/><path d="M548 236 h104"/><path d="M548 300 h104"/><path d="M548 364 h104"/></g>
+  <text x="600" y="420" text-anchor="middle" font-size="13" fill="#7f8a84">二十来个已合并变更 · 每层都换了 · 理由一条都不在我脑子里</text>
+</svg>
