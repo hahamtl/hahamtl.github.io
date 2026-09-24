@@ -23,7 +23,7 @@
   <rect x="500" y="22" width="16" height="16" rx="4" class="person"/><text x="524" y="35" font-size="13" fill="#4a5651">a person</text>
 
   <!-- ROW 1 -->
-  <text x="40" y="92" class="lbl">Shape one</text><text x="40" y="110" class="sub">a loop around an API · 4 of 7 boxes are yours</text>
+  <text x="40" y="92" class="lbl">Shape one</text><text x="40" y="110" class="sub">Bedrock API + your code · 4 of 7 boxes are yours</text>
   <rect x="40" y="128" width="110" height="52" rx="10" class="person"/><text x="95" y="159" class="t">person asks</text>
   <path d="M152 154 h28" class="ln"/>
   <rect x="182" y="128" width="130" height="52" rx="10" class="you"/><text x="247" y="151" class="ty">load state</text><text x="247" y="168" class="t">from your DB</text>
@@ -40,7 +40,7 @@
   <path d="M1047 182 v22 H247 v-22" class="ln"/>
 
   <!-- ROW 2 -->
-  <text x="40" y="262" class="lbl">Shape two</text><text x="40" y="280" class="sub">a managed runtime · your part is text the runtime reads</text>
+  <text x="40" y="262" class="lbl">Shape two</text><text x="40" y="280" class="sub">Bedrock AgentCore · your part is text the runtime reads</text>
   <rect x="40" y="298" width="110" height="52" rx="10" class="person"/><text x="95" y="329" class="t">person asks</text>
   <path d="M152 324 h28" class="ln"/>
   <rect x="182" y="298" width="620" height="52" rx="10" class="them"/>
@@ -54,12 +54,12 @@
   <path d="M492 364 v-12" class="ln"/>
 
   <!-- ROW 3 -->
-  <text x="40" y="452" class="lbl">Shape three</text><text x="40" y="470" class="sub">a folder of text files · the person approves every write</text>
+  <text x="40" y="452" class="lbl">Shape three</text><text x="40" y="470" class="sub">Claude Code plugin · the person approves every write</text>
   <rect x="40" y="488" width="110" height="52" rx="10" class="person"/><text x="95" y="519" class="t">person asks</text>
   <path d="M152 514 h28" class="ln"/>
-  <rect x="182" y="488" width="200" height="52" rx="10" class="them"/><text x="282" y="511" class="t">assistant on the laptop</text><text x="282" y="528" class="sub" text-anchor="middle">reads your folder</text>
+  <rect x="182" y="488" width="200" height="52" rx="10" class="them"/><text x="282" y="511" class="t">Claude Code on the laptop</text><text x="282" y="528" class="sub" text-anchor="middle">reads your folder</text>
   <path d="M384 514 h28" class="ln"/>
-  <rect x="414" y="488" width="150" height="52" rx="10" class="you"/><text x="489" y="511" class="ty">instructions.md</text><text x="489" y="528" class="t">tools · a script or two</text>
+  <rect x="414" y="488" width="150" height="52" rx="10" class="you"/><text x="489" y="511" class="ty">instructions.md</text><text x="489" y="528" class="t">MCP tools · a script or two</text>
   <path d="M566 514 h28" class="ln"/>
   <rect x="596" y="488" width="110" height="52" rx="10" class="model"/><text x="651" y="519" class="tw">model call</text>
   <path d="M708 514 h28" class="ln"/>

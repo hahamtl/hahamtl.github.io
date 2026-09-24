@@ -1,23 +1,23 @@
 ---
 title: "Three shapes of an agent"
-description: "A year of building agents took me from a loop around a chat API, to a managed runtime, to a folder of text files. What each shape is good for, and the one thing that survived all three."
+description: "A year of building agents took me from a hand-written loop around the Bedrock API, to Bedrock AgentCore, to a Claude Code plugin that is mostly markdown. What each shape is good for, and the one thing that survived all three."
 date: 2026-09-24
 tags: [agents, architecture]
 cover: /img/three-shapes/cover.svg
 ---
 
-When I started building agents at work, the word meant one thing to me: call a model, read the answer, decide what to do next, call it again. Since then I have built the same kind of system three different ways, and the word has meant something different each time.
+When I started building agents at work, the word meant one thing to me: call a model, read the answer, decide what to do next, call it again. Since then I have built the same kind of system three ways: a loop we wrote ourselves around the Bedrock API, then on Bedrock AgentCore, then as a Claude Code plugin. Each time the word "agent" meant something different, and each time the part I wrote got smaller.
 
 This is the short version of what changed, and what I would keep.
 
 <figure>
-<a href="/img/three-shapes/cover.svg" target="_blank" rel="noopener"><img src="/img/three-shapes/cover.svg" alt="Three shapes: a hand-written loop around an API, a managed runtime that owns the loop, and a folder of text files loaded into an assistant the person already uses."></a>
+<a href="/img/three-shapes/cover.svg" target="_blank" rel="noopener"><img src="/img/three-shapes/cover.svg" alt="Three shapes: a hand-written loop around a model API, a managed runtime that owns the loop, and a folder of text files loaded into an assistant the person already uses."></a>
 <figcaption>Green is what you write. It shrinks from left to right.</figcaption>
 </figure>
 
-## Shape one: a loop around an API
+## Shape one: a loop around the model API
 
-The first system was a set of assistants living in a chat tool. One read a requirements document and pointed out gaps. One drafted a technical plan. One opened pull requests. Under the hood every one of them was the same thing: a stateless call to a model, wrapped in code we wrote ourselves.
+The first system was a set of assistants living in Slack. One read a requirements document and pointed out gaps. One drafted a technical plan. One opened pull requests. Under the hood every one of them was the same thing: a stateless call to a Claude model through the Bedrock API, wrapped in code we wrote ourselves.
 
 Stateless is the important word. The model remembers nothing between calls, cannot run a tool, and stops whenever it stops. So the code around it had to supply everything else:
 
@@ -30,19 +30,19 @@ Six months in, most of the repository was this runtime. The tasks the assistants
 
 ## Shape two: a managed runtime
 
-The second version moved the loop out of our code. A managed harness took over the parts we had written by hand: sessions, memory, tool calls, identity, and long-running work that survives a restart. What we brought was instructions, tool definitions, and a few opinions about when to stop and ask a person.
+The second version moved the loop out of our code and onto Bedrock AgentCore. The managed runtime took over the parts we had written by hand: sessions, memory, tool calls, identity, and long-running work that survives a restart. What we brought was instructions, tool definitions, and a few opinions about when to stop and ask a person.
 
 The gain showed up in the diff first. The runtime folder shrank to almost nothing.
 
 What surprised me was where the effort went instead. With no loop left to tune, the quality of the whole system came down to two things: how well the instructions were written, and how honest the tool contracts were. A tool that said "returns the issue" but sometimes returned a stub used to be a plumbing bug. Now it was a bug in the agent's judgement, because the agent believed it.
 
-The cost was a boundary. When something went wrong we debugged through someone else's abstractions, and the state lived in someone else's store. You accept that trade when the loop is the least interesting part of what you are building. For us it was.
+The cost was a boundary. When something went wrong we debugged through AWS abstractions, and the state lived in an AWS store. You accept that trade when the loop is the least interesting part of what you are building. For us it was.
 
 ## Shape three: a folder of text files
 
-The third one I would not have predicted. An agent that helps engineers plan and write tests, shipped as a plugin to the coding assistant they already had open, with no service behind it. A folder of markdown files with instructions, a list of tools it may call, and a couple of scripts. The runtime is the assistant on the person's laptop. The credentials are the person's own.
+The third one I would not have predicted. An agent that helps engineers plan and write tests, shipped as a Claude Code plugin, so it runs inside the coding assistant they already had open. No service behind it, no queue. A folder of markdown files with instructions, a list of MCP tools it may call, and a couple of scripts. The runtime is Claude Code on the person's laptop. The credentials are the person's own.
 
-That changes what "deploy" means. A new version is a version bump. Permissions are whatever the user already has, no more. And because a person is sitting right there, the agent can stop and ask before every write to a shared system, which for shared systems is exactly the behaviour you want.
+That changes what "deploy" means. A new version is a version bump in the plugin marketplace. Permissions are whatever the user already has, no more. And because a person is sitting right there, the agent can stop and ask before every write to a shared system, which for shared systems is exactly the behaviour you want.
 
 It also changes what the agent cannot do. It does not run at night. It cannot pick up a ticket on its own. It is exactly as autonomous as a conversation, which is to say not at all.
 
@@ -53,10 +53,11 @@ It also changes what the agent cannot do. It does not run at night. It cannot pi
 
 ## Side by side
 
-| | Loop around an API | Managed runtime | Folder of text files |
+| | Loop around the API | Managed runtime | Plugin of text files |
 |---|---|---|---|
-| Who runs the loop | your code | the harness | the assistant on the laptop |
-| Where state lives | your database | their store | the conversation |
+| Example | Bedrock API + your code | Bedrock AgentCore | Claude Code plugin |
+| Who runs the loop | your code | the runtime | the assistant on the laptop |
+| Where state lives | your database | the runtime's store | the conversation |
 | What you write | code | instructions + tool contracts | instructions + tool contracts + a few scripts |
 | How you ship | deploy a service | update instructions | bump a version |
 | Whose credentials | a service account | a service account or the runtime's identity | the person's own |
@@ -66,7 +67,7 @@ It also changes what the agent cannot do. It does not run at night. It cannot pi
 
 ## What I keep from all three
 
-Line them up and one thing stands out. The part I wrote got smaller and more like prose each time: code, then configuration, then instructions. The instructions and the tool contracts outlived every loop, and they moved between shapes almost unchanged because we had kept them as plain text.
+Line them up and one thing stands out. The part I wrote got smaller and more like prose each time: code, then configuration, then instructions. The instructions and the tool contracts outlived every loop, and they moved between Bedrock, AgentCore and Claude Code almost unchanged because we had kept them as plain text.
 
 <div class="callout">
 <p><strong>The rule I use now:</strong> write the agent as text first, choose the runtime last.</p>
