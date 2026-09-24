@@ -18,9 +18,9 @@
 
   <!-- Shape two -->
   <text x="600" y="48" text-anchor="middle" font-size="15" letter-spacing="2" fill="#7f8a84" font-weight="600">形态二</text>
-  <text x="600" y="76" text-anchor="middle" font-size="21" fill="#182420" font-weight="700">托管运行时</text>
+  <text x="600" y="76" text-anchor="middle" font-size="21" fill="#182420" font-weight="700">托管 runtime</text>
   <rect x="450" y="104" width="300" height="270" rx="16" fill="#eef1ee" stroke="#e4e8e4"/>
-  <text x="600" y="134" text-anchor="middle" font-size="13" fill="#7f8a84">别人的运行时</text>
+  <text x="600" y="134" text-anchor="middle" font-size="13" fill="#7f8a84">别人的 runtime</text>
   <text x="600" y="162" text-anchor="middle" font-size="13" fill="#7f8a84">会话 · 记忆 · 工具调用 · 身份</text>
   <rect x="490" y="186" width="220" height="150" rx="12" fill="#ffffff" stroke="#0e7a4d" stroke-width="2"/>
   <text x="600" y="214" text-anchor="middle" font-size="13" fill="#7f8a84">你带来的</text>

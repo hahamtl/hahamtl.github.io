@@ -8,7 +8,7 @@ export const prefix = (lang: Lang) => (lang === DEFAULT_LANG ? '' : `/${lang}`);
 // Topic keys are stable English slugs used in frontmatter `tags`.
 // Display names are per language. Add a topic here before using it in a post.
 export const TOPICS: Record<string, Record<Lang, string>> = {
-  agents:      { en: 'AI agents',   zh: 'AI 智能体' },
+  agents:      { en: 'AI agents',   zh: 'AI Agent' },
   tooling:     { en: 'tooling',     zh: '工具链' },
   automation:  { en: 'automation',  zh: '自动化' },
   architecture:{ en: 'architecture',zh: '架构' },
