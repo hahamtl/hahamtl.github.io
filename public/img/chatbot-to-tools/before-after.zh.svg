@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs><marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker>
+  <marker id="big" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker></defs>
+  <rect width="1200" height="460" fill="#fbfbf9"/>
+
+  <!-- BEFORE -->
+  <text x="270" y="44" text-anchor="middle" font-size="14" letter-spacing="2" fill="#7f8a84" font-weight="600">二月</text>
+  <text x="270" y="72" text-anchor="middle" font-size="21" fill="#182420" font-weight="700">只有一个入口</text>
+  <rect x="80" y="100" width="380" height="300" rx="16" fill="#ffffff" stroke="#e4e8e4"/>
+  <rect x="110" y="126" width="320" height="50" rx="10" fill="#182420"/><text x="270" y="157" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="600">网页表单里的聊天面板</text>
+  <path d="M270 178 v28" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#g)"/>
+  <rect x="110" y="208" width="320" height="50" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="270" y="239" text-anchor="middle" font-size="14" fill="#44524c">我的后端 · prompt · 状态</text>
+  <path d="M270 260 v28" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#g)"/>
+  <rect x="110" y="290" width="320" height="80" rx="10" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="270" y="322" text-anchor="middle" font-size="15" fill="#0e7a4d" font-weight="700">工具 + 知识</text>
+  <text x="270" y="344" text-anchor="middle" font-size="13" fill="#44524c">普通函数 · YAML</text>
+  <text x="270" y="428" text-anchor="middle" font-size="13.5" fill="#7f8a84">锁在一个 UI 后面</text>
+
+  <path d="M490 250 h60" fill="none" stroke="#0e7a4d" stroke-width="3" marker-end="url(#big)"/>
+  <text x="520" y="236" text-anchor="middle" font-size="12" fill="#0e7a4d" font-weight="600">两周</text>
+
+  <!-- AFTER -->
+  <text x="870" y="44" text-anchor="middle" font-size="14" letter-spacing="2" fill="#7f8a84" font-weight="600">三月</text>
+  <text x="870" y="72" text-anchor="middle" font-size="21" fill="#182420" font-weight="700">任何会说 MCP 的助手</text>
+  <rect x="580" y="100" width="580" height="300" rx="16" fill="#ffffff" stroke="#e4e8e4"/>
+  <g font-size="14">
+    <rect x="610" y="126" width="160" height="50" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="690" y="157" text-anchor="middle" fill="#44524c">聊天面板</text>
+    <rect x="790" y="126" width="160" height="50" rx="10" fill="#182420"/><text x="870" y="157" text-anchor="middle" fill="#ffffff" font-weight="600">终端里的助手</text>
+    <rect x="970" y="126" width="160" height="50" rx="10" fill="#182420"/><text x="1050" y="157" text-anchor="middle" fill="#ffffff" font-weight="600">桌面助手</text>
+  </g>
+  <path d="M690 178 v28" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#g)"/>
+  <path d="M870 178 v28" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#g)"/>
+  <path d="M1050 178 v28" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#g)"/>
+  <rect x="610" y="208" width="520" height="50" rx="10" fill="#ffffff" stroke="#0e7a4d" stroke-width="1.5"/><text x="870" y="239" text-anchor="middle" font-size="14" fill="#182420" font-weight="600">MCP server · 一条命令安装</text>
+  <path d="M870 260 v28" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#g)"/>
+  <rect x="610" y="290" width="520" height="80" rx="10" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/>
+  <text x="870" y="322" text-anchor="middle" font-size="15" fill="#0e7a4d" font-weight="700">同一套工具 + 知识</text>
+  <text x="870" y="344" text-anchor="middle" font-size="13" fill="#44524c">函数变成 MCP 工具 · YAML 变成工具描述和指南</text>
+  <text x="870" y="428" text-anchor="middle" font-size="13.5" fill="#7f8a84">聊天面板成了三个客户端之一</text>
+</svg>
