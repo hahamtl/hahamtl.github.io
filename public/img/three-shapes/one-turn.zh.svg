@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker>
+    <style>
+      .you{fill:#e3f2ea;stroke:#0e7a4d;stroke-width:2}
+      .them{fill:#ffffff;stroke:#c9d0cb;stroke-width:1.5}
+      .model{fill:#182420;stroke:none}
+      .person{fill:#faf0da;stroke:#a06b12;stroke-width:1.5}
+      .t{font-size:13px;fill:#182420;text-anchor:middle}
+      .tw{font-size:13px;fill:#ffffff;text-anchor:middle;font-weight:600}
+      .ty{font-size:13px;fill:#0e7a4d;text-anchor:middle;font-weight:600}
+      .lbl{font-size:15px;fill:#182420;font-weight:700}
+      .sub{font-size:12.5px;fill:#7f8a84}
+      .ln{stroke:#7f8a84;stroke-width:1.6;fill:none;marker-end:url(#ar)}
+    </style>
+  </defs>
+  <rect width="1200" height="560" fill="#fbfbf9"/>
+
+  <!-- legend -->
+  <rect x="40" y="22" width="16" height="16" rx="4" class="you"/><text x="64" y="35" font-size="13" fill="#4a5651">你写的部分</text>
+  <rect x="190" y="22" width="16" height="16" rx="4" class="them"/><text x="214" y="35" font-size="13" fill="#4a5651">别人的运行时</text>
+  <rect x="390" y="22" width="16" height="16" rx="4" class="model"/><text x="414" y="35" font-size="13" fill="#4a5651">模型</text>
+  <rect x="500" y="22" width="16" height="16" rx="4" class="person"/><text x="524" y="35" font-size="13" fill="#4a5651">人</text>
+
+  <!-- ROW 1 -->
+  <text x="40" y="92" class="lbl">形态一</text><text x="40" y="110" class="sub">围着 API 的循环 · 7 个框里 4 个是你的</text>
+  <rect x="40" y="128" width="110" height="52" rx="10" class="person"/><text x="95" y="159" class="t">用户提问</text>
+  <path d="M152 154 h28" class="ln"/>
+  <rect x="182" y="128" width="130" height="52" rx="10" class="you"/><text x="247" y="151" class="ty">读取状态</text><text x="247" y="168" class="t">从你的数据库</text>
+  <path d="M314 154 h28" class="ln"/>
+  <rect x="344" y="128" width="110" height="52" rx="10" class="model"/><text x="399" y="159" class="tw">调用模型</text>
+  <path d="M456 154 h28" class="ln"/>
+  <rect x="486" y="128" width="150" height="52" rx="10" class="you"/><text x="561" y="151" class="ty">解析回答</text><text x="561" y="168" class="t">选一个工具</text>
+  <path d="M638 154 h28" class="ln"/>
+  <rect x="668" y="128" width="110" height="52" rx="10" class="them"/><text x="723" y="159" class="t">执行工具</text>
+  <path d="M780 154 h28" class="ln"/>
+  <rect x="810" y="128" width="130" height="52" rx="10" class="you"/><text x="875" y="151" class="ty">保存状态</text><text x="875" y="168" class="t">失败就重试</text>
+  <path d="M942 154 h28" class="ln"/>
+  <rect x="972" y="128" width="150" height="52" rx="10" class="you"/><text x="1047" y="151" class="ty">做完了吗？</text><text x="1047" y="168" class="t">没有就再来一轮</text>
+  <path d="M1047 182 v22 H247 v-22" class="ln"/>
+
+  <!-- ROW 2 -->
+  <text x="40" y="262" class="lbl">形态二</text><text x="40" y="280" class="sub">托管运行时 · 你的部分是它读取的文本</text>
+  <rect x="40" y="298" width="110" height="52" rx="10" class="person"/><text x="95" y="329" class="t">用户提问</text>
+  <path d="M152 324 h28" class="ln"/>
+  <rect x="182" y="298" width="620" height="52" rx="10" class="them"/>
+  <text x="492" y="321" class="t">托管框架：会话 · 记忆 · 工具调用 · 身份 · 重试 · 长任务</text>
+  <text x="492" y="339" class="sub" text-anchor="middle">它替你调用模型和工具</text>
+  <path d="M804 324 h28" class="ln"/>
+  <rect x="834" y="298" width="110" height="52" rx="10" class="model"/><text x="889" y="329" class="tw">调用模型</text>
+  <path d="M946 324 h28" class="ln"/>
+  <rect x="976" y="298" width="146" height="52" rx="10" class="them"/><text x="1049" y="329" class="t">执行工具</text>
+  <rect x="352" y="366" width="280" height="44" rx="10" class="you"/><text x="492" y="386" class="ty">指令 + 工具契约</text><text x="492" y="402" class="t">什么时候停下来问人</text>
+  <path d="M492 364 v-12" class="ln"/>
+
+  <!-- ROW 3 -->
+  <text x="40" y="452" class="lbl">形态三</text><text x="40" y="470" class="sub">文件夹里的文本 · 每次写入由人确认</text>
+  <rect x="40" y="488" width="110" height="52" rx="10" class="person"/><text x="95" y="519" class="t">用户提问</text>
+  <path d="M152 514 h28" class="ln"/>
+  <rect x="182" y="488" width="200" height="52" rx="10" class="them"/><text x="282" y="511" class="t">笔记本上的助手</text><text x="282" y="528" class="sub" text-anchor="middle">读取你的文件夹</text>
+  <path d="M384 514 h28" class="ln"/>
+  <rect x="414" y="488" width="150" height="52" rx="10" class="you"/><text x="489" y="511" class="ty">instructions.md</text><text x="489" y="528" class="t">工具清单 · 一两个脚本</text>
+  <path d="M566 514 h28" class="ln"/>
+  <rect x="596" y="488" width="110" height="52" rx="10" class="model"/><text x="651" y="519" class="tw">调用模型</text>
+  <path d="M708 514 h28" class="ln"/>
+  <rect x="738" y="488" width="170" height="52" rx="10" class="person"/><text x="823" y="511" class="t">"准备写入这个，</text><text x="823" y="528" class="t">可以吗？"</text>
+  <path d="M910 514 h28" class="ln"/>
+  <rect x="940" y="488" width="182" height="52" rx="10" class="them"/><text x="1031" y="511" class="t">执行工具</text><text x="1031" y="528" class="sub" text-anchor="middle">用这个人自己的凭据</text>
+</svg>

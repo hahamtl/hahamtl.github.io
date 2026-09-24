@@ -1,11 +1,2 @@
-import rss from '@astrojs/rss';
-import { getCollection } from 'astro:content';
-export async function GET(context) {
-  const posts = (await getCollection('posts', p => !p.data.draft)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-  return rss({
-    title: 'Lin Zhu',
-    description: 'Notes from an engineer on tooling, automation and AI agents in production.',
-    site: context.site,
-    items: posts.map(p => ({ title: p.data.title, description: p.data.description, pubDate: p.data.date, link: `/posts/${p.id}/` })),
-  });
-}
+import { feed } from '../lib/rss';
+export const GET = (context) => feed('en', context.site);

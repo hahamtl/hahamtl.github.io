@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import Writing from '../../components/Writing.astro';
+import { topicName, topicUrl } from '../../i18n';
+import { postsIn, topicsUsed } from '../../lib/posts';
+export async function getStaticPaths() {
+  return topicsUsed(await postsIn('en')).map(topic => ({ params: { topic } }));
+}
+const { topic } = Astro.params;
+const zhHas = topicsUsed(await postsIn('zh')).includes(topic);
+---
+<Base lang="en" title={topicName(topic, 'en')} path={topicUrl('en', topic)} alt={zhHas ? topicUrl('zh', topic) : '/zh/'}>
+  <Writing lang="en" topic={topic} />
+</Base>

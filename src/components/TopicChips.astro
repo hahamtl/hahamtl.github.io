@@ -1,0 +1,9 @@
+---
+import { t, topicUrl, topicName, prefix, type Lang } from '../i18n';
+interface Props { lang: Lang; topics: string[]; current?: string | null; }
+const { lang, topics, current = null } = Astro.props as Props;
+---
+<div class="chips" aria-label={t(lang, 'topics')}>
+  <a class:list={['chip', { on: !current }]} href={`${prefix(lang)}/`}>{t(lang, 'all_topics')}</a>
+  {topics.map(k => <a class:list={['chip', { on: current === k }]} href={topicUrl(lang, k)}>{topicName(k, lang)}</a>)}
+</div>

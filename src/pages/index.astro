@@ -1,19 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getCollection } from 'astro:content';
-const posts = (await getCollection('posts', p => !p.data.draft)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-const fmt = d => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+import Writing from '../components/Writing.astro';
 ---
-<Base path="/">
-  <h1>Writing</h1>
-  <p class="lede">Twelve years building the systems other engineers rely on: automation, internal tooling, and lately AI agents in production. Short posts, one idea each.</p>
-  <ul class="posts">
-    {posts.map(p => (
-      <li>
-        <a class="t" href={`/posts/${p.id}/`}>{p.data.title}</a>
-        <div class="d">{fmt(p.data.date)}{p.data.tags.map(t => <span class="tag" style="margin-left:.5rem;background:var(--accent-soft);color:var(--accent);border-radius:99px;padding:.05rem .6rem;font-size:.78rem">{t}</span>)}</div>
-        <p>{p.data.description}</p>
-      </li>
-    ))}
-  </ul>
+<Base lang="en" path="/" alt="/zh/">
+  <Writing lang="en" />
 </Base>

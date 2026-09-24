@@ -1,0 +1,11 @@
+---
+import Post from '../../components/Post.astro';
+import { getCollection } from 'astro:content';
+import { splitId } from '../../i18n';
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', p => splitId(p.id).lang === 'en');
+  return posts.map(p => ({ params: { slug: splitId(p.id).slug }, props: { post: p } }));
+}
+const { post } = Astro.props;
+---
+<Post post={post} />
