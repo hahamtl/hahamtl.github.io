@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#0e7a4d"/></marker>
+    <marker id="y" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#a06b12"/></marker>
+    <marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#c9d0cb"/></marker>
+  </defs>
+  <rect width="1200" height="520" fill="#fbfbf9"/>
+
+  <!-- world 1 -->
+  <rect x="300" y="60" width="330" height="400" rx="18" fill="#ffffff" stroke="#e4e8e4"/>
+  <text x="465" y="96" text-anchor="middle" font-size="14" letter-spacing="2" fill="#7f8a84" font-weight="600">WORLD ONE</text>
+  <text x="465" y="124" text-anchor="middle" font-size="22" fill="#182420" font-weight="700">things that exist</text>
+  <!-- world 2 -->
+  <rect x="690" y="60" width="330" height="400" rx="18" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="1.5"/>
+  <text x="855" y="96" text-anchor="middle" font-size="14" letter-spacing="2" fill="#0e7a4d" font-weight="600">WORLD TWO</text>
+  <text x="855" y="124" text-anchor="middle" font-size="22" fill="#182420" font-weight="700">things that count</text>
+
+  <!-- agent -->
+  <rect x="40" y="200" width="180" height="70" rx="14" fill="#182420"/>
+  <text x="130" y="230" text-anchor="middle" font-size="16" fill="#ffffff" font-weight="700">agent</text>
+  <text x="130" y="252" text-anchor="middle" font-size="13" fill="#cfd8d3">writes</text>
+  <path d="M222 235 h70" fill="none" stroke="#0e7a4d" stroke-width="2.5" marker-end="url(#g)"/>
+
+  <!-- draft artifacts -->
+  <g>
+    <rect x="335" y="160" width="260" height="46" rx="10" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="5 4"/>
+    <text x="352" y="189" font-size="14" fill="#44524c">test case</text>
+    <rect x="500" y="171" width="78" height="24" rx="12" fill="#eef1ee"/><text x="539" y="188" text-anchor="middle" font-size="11.5" fill="#7f8a84" font-weight="700">DRAFT</text>
+  </g>
+  <g>
+    <rect x="335" y="216" width="260" height="46" rx="10" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="5 4"/>
+    <text x="352" y="245" font-size="14" fill="#44524c">pull request</text>
+    <rect x="500" y="227" width="78" height="24" rx="12" fill="#eef1ee"/><text x="539" y="244" text-anchor="middle" font-size="11.5" fill="#7f8a84" font-weight="700">DRAFT</text>
+  </g>
+  <g>
+    <rect x="335" y="272" width="260" height="46" rx="10" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="5 4"/>
+    <text x="352" y="301" font-size="14" fill="#44524c">ticket note</text>
+    <rect x="500" y="283" width="78" height="24" rx="12" fill="#eef1ee"/><text x="539" y="300" text-anchor="middle" font-size="11.5" fill="#7f8a84" font-weight="700">AI FIELD</text>
+  </g>
+  <g>
+    <rect x="335" y="328" width="260" height="46" rx="10" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="5 4"/>
+    <text x="352" y="357" font-size="14" fill="#44524c">message</text>
+    <rect x="490" y="339" width="88" height="24" rx="12" fill="#eef1ee"/><text x="534" y="356" text-anchor="middle" font-size="11.5" fill="#7f8a84" font-weight="700">PRIVATE</text>
+  </g>
+  <text x="465" y="420" text-anchor="middle" font-size="13" fill="#7f8a84">a status field on each one</text>
+  <text x="465" y="440" text-anchor="middle" font-size="13" fill="#7f8a84">the agent never flips it</text>
+
+  <!-- promote arrow -->
+  <path d="M632 267 h50" fill="none" stroke="#a06b12" stroke-width="3" marker-end="url(#y)"/>
+  <rect x="598" y="290" width="118" height="54" rx="12" fill="#faf0da" stroke="#a06b12" stroke-width="1.5"/>
+  <text x="657" y="313" text-anchor="middle" font-size="14" fill="#182420" font-weight="700">a person</text>
+  <text x="657" y="331" text-anchor="middle" font-size="12.5" fill="#a06b12">promotes</text>
+
+  <!-- promoted artifacts -->
+  <rect x="725" y="160" width="260" height="46" rx="10" fill="#ffffff" stroke="#0e7a4d" stroke-width="1.5"/>
+  <text x="742" y="189" font-size="14" fill="#182420">test case</text>
+  <rect x="900" y="171" width="68" height="24" rx="12" fill="#0e7a4d"/><text x="934" y="188" text-anchor="middle" font-size="11.5" fill="#ffffff" font-weight="700">READY</text>
+  <rect x="725" y="216" width="260" height="46" rx="10" fill="#ffffff" stroke="#0e7a4d" stroke-width="1.5"/>
+  <text x="742" y="245" font-size="14" fill="#182420">pull request</text>
+  <rect x="880" y="227" width="88" height="24" rx="12" fill="#0e7a4d"/><text x="924" y="244" text-anchor="middle" font-size="11.5" fill="#ffffff" font-weight="700">IN REVIEW</text>
+  <rect x="725" y="272" width="260" height="46" rx="10" fill="#ffffff" stroke="#0e7a4d" stroke-width="1.5"/>
+  <text x="742" y="301" font-size="14" fill="#182420">ticket description</text>
+  <rect x="890" y="283" width="78" height="24" rx="12" fill="#0e7a4d"/><text x="929" y="300" text-anchor="middle" font-size="11.5" fill="#ffffff" font-weight="700">MERGED</text>
+  <rect x="725" y="328" width="260" height="46" rx="10" fill="#ffffff" stroke="#0e7a4d" stroke-width="1.5"/>
+  <text x="742" y="357" font-size="14" fill="#182420">message</text>
+  <rect x="872" y="339" width="96" height="24" rx="12" fill="#0e7a4d"/><text x="920" y="356" text-anchor="middle" font-size="11.5" fill="#ffffff" font-weight="700">TEAM CHANNEL</text>
+
+  <!-- consumers -->
+  <rect x="1060" y="150" width="110" height="46" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="1115" y="179" text-anchor="middle" font-size="13" fill="#44524c">report</text>
+  <rect x="1060" y="212" width="110" height="46" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="1115" y="241" text-anchor="middle" font-size="13" fill="#44524c">pipeline</text>
+  <rect x="1060" y="274" width="110" height="46" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="1115" y="303" text-anchor="middle" font-size="13" fill="#44524c">the team</text>
+  <rect x="1060" y="336" width="110" height="46" rx="10" fill="#ffffff" stroke="#e4e8e4"/><text x="1115" y="365" text-anchor="middle" font-size="13" fill="#44524c">audience</text>
+  <path d="M1022 267 h30" fill="none" stroke="#0e7a4d" stroke-width="2.5" marker-end="url(#g)"/>
+  <text x="1115" y="410" text-anchor="middle" font-size="13" fill="#7f8a84">consumers read</text>
+  <text x="1115" y="428" text-anchor="middle" font-size="13" fill="#7f8a84">world two only</text>
+
+  <text x="600" y="500" text-anchor="middle" font-size="14" fill="#7f8a84">the agent may make things exist · only a person may make them count</text>
+</svg>

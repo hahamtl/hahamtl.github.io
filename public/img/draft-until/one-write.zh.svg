@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Avenir Next, Helvetica Neue, PingFang SC, Hiragino Sans GB, Noto Sans SC, Microsoft YaHei, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker>
+    <style>
+      .a{fill:#e3f2ea;stroke:#0e7a4d;stroke-width:2}
+      .p{fill:#faf0da;stroke:#a06b12;stroke-width:1.5}
+      .d{fill:#f4f6f4;stroke:#c9d0cb;stroke-width:1.5;stroke-dasharray:5 4}
+      .t{font-size:13px;fill:#182420;text-anchor:middle;font-weight:600}
+      .s{font-size:12px;fill:#44524c;text-anchor:middle}
+      .ln{stroke:#7f8a84;stroke-width:1.6;fill:none;marker-end:url(#ar)}
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#fbfbf9"/>
+  <rect x="40" y="22" width="16" height="16" rx="4" class="a"/><text x="64" y="35" font-size="13" fill="#4a5651">Agent</text>
+  <rect x="130" y="22" width="16" height="16" rx="4" class="p"/><text x="154" y="35" font-size="13" fill="#4a5651">人</text>
+  <rect x="240" y="22" width="16" height="16" rx="4" class="d"/><text x="264" y="35" font-size="13" fill="#4a5651">草稿，报表看不见</text>
+
+  <rect x="40" y="90" width="150" height="70" rx="12" class="a"/><text x="115" y="118" class="t">先亮清单</text><text x="115" y="138" class="s">要建的全部记录</text>
+  <path d="M192 125 h26" class="ln"/>
+  <rect x="220" y="90" width="110" height="70" rx="12" class="p"/><text x="275" y="118" class="t">"go"</text><text x="275" y="138" class="s">或 "stop"</text>
+  <path d="M332 125 h26" class="ln"/>
+  <rect x="360" y="90" width="120" height="70" rx="12" class="a"/><text x="420" y="118" class="t">写入</text><text x="420" y="138" class="s">状态 = 草稿</text>
+  <path d="M482 125 h26" class="ln"/>
+  <rect x="510" y="90" width="130" height="70" rx="12" class="a"/><text x="575" y="118" class="t">读回校验</text><text x="575" y="138" class="s">逐字段对比</text>
+  <path d="M642 125 h26" class="ln"/>
+  <rect x="670" y="90" width="150" height="70" rx="12" class="d"/><text x="745" y="112" class="t">草稿记录</text><text x="745" y="130" class="s">来源标记 · 归属 = Agent</text><text x="745" y="147" class="s">报表跳过</text>
+  <path d="M822 125 h26" class="ln"/>
+  <rect x="850" y="90" width="130" height="70" rx="12" class="p"/><text x="915" y="118" class="t">人审</text><text x="915" y="138" class="s">提升或删除</text>
+  <path d="M982 125 h26" class="ln"/>
+  <rect x="1010" y="90" width="150" height="70" rx="12" fill="#0e7a4d" stroke="none"/><text x="1085" y="118" class="t" fill="#ffffff" style="fill:#fff">算数</text><text x="1085" y="138" class="s" style="fill:#dff0e7">就绪 · 归属团队</text>
+
+  <path d="M745 164 v34" class="ln"/>
+  <rect x="660" y="200" width="170" height="34" rx="8" fill="#ffffff" stroke="#e4e8e4"/><text x="745" y="222" text-anchor="middle" font-size="12.5" fill="#7f8a84">报表 · 流水线 · 团队：跳过</text>
+  <text x="600" y="278" text-anchor="middle" font-size="14" fill="#7f8a84">Agent 永远不把状态设为就绪，永远不改归属</text>
+</svg>
