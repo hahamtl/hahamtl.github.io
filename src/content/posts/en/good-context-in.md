@@ -2,6 +2,8 @@
 title: "Good context in, good answer out"
 description: "Across a year of building with LLMs, almost every wrong answer I investigated turned out to be a context problem, not a model problem. Five ways context goes wrong, one habit that catches most of them, and why 'the model hallucinated' is usually the wrong first sentence."
 date: 2026-10-12
+order: 10
+rank: 5
 tags: [agents, engineering]
 cover: /img/context-in/where-wrong-came-from.svg
 ---
