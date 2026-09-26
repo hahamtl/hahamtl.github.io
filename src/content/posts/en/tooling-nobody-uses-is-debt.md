@@ -2,6 +2,8 @@
 title: "Tooling nobody uses is debt"
 description: "When we moved an agent to a new home, we listed every command, dashboard and helper around it and asked one question: who opened this in the last thirty days? Half the answer was nobody. What we dropped, what we kept, and the three tests I now run before building an internal tool."
 date: 2026-09-26
+order: 6
+rank: 9
 tags: [tooling, engineering]
 cover: /img/unused-tooling/inventory.svg
 ---

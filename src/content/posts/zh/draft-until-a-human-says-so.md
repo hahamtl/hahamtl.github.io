@@ -2,6 +2,8 @@
 title: "先当草稿，人确认了才算数：Agent 写入共享系统的最低成本安全网"
 description: "让 Agent 往共享系统里写东西，最便宜的安全网不是权限墙，也不是把 prompt 写得更严，而是一个状态字段：Agent 创建的东西都存在，但没有一条算数，直到有人把它确认。"
 date: 2026-08-09
+order: 2
+rank: 1
 tags: [agents, engineering]
 cover: /img/draft-until/two-worlds.zh.svg
 ---

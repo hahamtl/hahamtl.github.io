@@ -2,6 +2,8 @@
 title: "休假三周回来，后端全换了"
 description: "产假三周回来，聊天界面一模一样，底下的系统完全是另一套：二十来个架构变更，一个都没经过我。读 commit log 不等于补上课。我怎么做的，以及一个只有这么做才会发现的 bug。"
 date: 2026-09-28
+order: 8
+rank: 10
 tags: [career, engineering]
 cover: /img/back-from-leave/before-after.zh.svg
 ---

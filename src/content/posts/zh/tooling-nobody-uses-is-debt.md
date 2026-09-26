@@ -2,6 +2,8 @@
 title: "没人用的内部工具就是技术债"
 description: "把一个 Agent 搬到新家的时候，我们把它周围的每个命令、看板、辅助脚本列了一遍，只问一个问题：最近三十天谁打开过？一半的答案是没人。砍了什么，留了什么，以及我现在做任何内部工具之前的三个问题。"
 date: 2026-09-26
+order: 6
+rank: 9
 tags: [tooling, engineering]
 cover: /img/unused-tooling/inventory.zh.svg
 ---

@@ -2,6 +2,8 @@
 title: "Same job, twelve years"
 description: "I started as a test automation developer and now build AI agents for engineering teams. On paper that is four titles and three companies. In practice it has been one job the whole time: find where people and their systems rub against each other, and build the thing that removes the friction."
 date: 2026-10-19
+order: 11
+rank: 11
 tags: [career, tooling]
 cover: /img/same-job/one-line.svg
 ---

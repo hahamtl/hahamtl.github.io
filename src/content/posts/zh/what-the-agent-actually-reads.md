@@ -2,6 +2,8 @@
 title: "Agent 真正读的是什么：给 Agent 接工具时的四个安全设计"
 description: "一张工单的描述字段是空的，因为工具描述说这个字段可选，而说它必填的那条规则在 Agent 没加载的文件里。给 Agent 接工具，我现在把四样东西当安全设计而不是接线的活：它的措辞、它的沉默、它的名字、它的锁。"
 date: 2026-09-25
+order: 5
+rank: 4
 tags: [agents, tooling]
 cover: /img/agent-tools/who-wins.zh.svg
 ---

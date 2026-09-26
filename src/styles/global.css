@@ -88,3 +88,18 @@ article figure a{border:0}
 
 .langbar{display:block;margin:-.6rem 0 1.4rem;padding:.55rem .9rem;border:1px solid var(--accent-line, var(--line));border-radius:10px;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:.95rem;max-width:var(--measure)}
 .langbar:hover{border-color:var(--accent)}
+
+/* list: numbers, sort, prev/next */
+ul.posts .num{display:inline-block;min-width:2.2rem;color:var(--accent);font-variant-numeric:tabular-nums;font-weight:700}
+.listbar{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
+.listbar .chips{margin:1.2rem 0 .4rem}
+.sort{display:flex;gap:.3rem;margin:1.2rem 0 .4rem;border:1px solid var(--line);border-radius:99px;padding:.15rem}
+.sort button{border:0;background:transparent;color:var(--fg2);font:inherit;font-size:.82rem;padding:.15rem .7rem;border-radius:99px;cursor:pointer}
+.sort button.on{background:var(--accent);color:#fff}
+.hint{color:var(--muted);font-size:.85rem;margin:.2rem 0 .6rem}
+nav.pn{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2.6rem 0 1rem;padding-top:1.4rem;border-top:1px solid var(--line)}
+nav.pn a{display:block;border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;color:var(--fg);font-weight:600;line-height:1.35}
+nav.pn a:hover{border-color:var(--accent)}
+nav.pn a small{display:block;color:var(--muted);font-weight:500;font-size:.78rem;margin-bottom:.25rem}
+nav.pn a.next{text-align:right}
+@media (max-width:640px){nav.pn{grid-template-columns:1fr} nav.pn a.next{text-align:left} .listbar{flex-direction:column;gap:0}}

@@ -2,6 +2,8 @@
 title: "The chatbot that became a tool server"
 description: "In February I built a chat panel over an internal service, calling Bedrock directly. By March the same knowledge was an MCP server and the chat panel was optional. What survived the six weeks, and why it was never the chat."
 date: 2026-08-30
+order: 3
+rank: 6
 tags: [agents, tooling]
 cover: /img/chatbot-to-tools/before-after.svg
 ---

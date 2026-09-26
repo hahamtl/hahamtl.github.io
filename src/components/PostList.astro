@@ -3,10 +3,10 @@ import { fmtDate, postUrl, topicUrl, topicName, splitId, type Lang } from '../i1
 interface Props { lang: Lang; posts: any[]; }
 const { lang, posts } = Astro.props as Props;
 ---
-<ul class="posts">
+<ul class="posts" id="postlist">
   {posts.map(p => { const { slug } = splitId(p.id); return (
-    <li>
-      <a class="t" href={postUrl(lang, slug)}>{p.data.title}</a>
+    <li data-rank={p.data.rank ?? 999} data-date={p.data.date.valueOf()}>
+      <a class="t" href={postUrl(lang, slug)}>{p.data.order != null && <span class="num">{String(p.data.order).padStart(2, '0')}</span>}{p.data.title}</a>
       <div class="d">{fmtDate(p.data.date, lang)}{p.data.tags.map(tg => <a class="tag" href={topicUrl(lang, tg)}>{topicName(tg, lang)}</a>)}</div>
       <p>{p.data.description}</p>
     </li>

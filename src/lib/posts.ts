@@ -18,3 +18,10 @@ export function topicsUsed(posts: { data: { tags: string[] } }[]) {
   for (const p of posts) for (const tg of p.data.tags) seen.set(tg, (seen.get(tg) ?? 0) + 1);
   return [...seen.entries()].sort((a, b) => b[1] - a[1]).map(([k]) => k);
 }
+
+export function byRank(posts: any[]) {
+  return [...posts].sort((a, b) => (a.data.rank ?? 999) - (b.data.rank ?? 999) || b.data.date.valueOf() - a.data.date.valueOf());
+}
+export function byOrder(posts: any[]) {
+  return [...posts].sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0));
+}

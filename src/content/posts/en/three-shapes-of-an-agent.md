@@ -2,6 +2,8 @@
 title: "Three shapes of an agent"
 description: "A year of building agents took me from a hand-written loop around the Bedrock API, to Bedrock AgentCore, to a Claude Code plugin that is mostly markdown. What each shape is good for, and the one thing that survived all three."
 date: 2026-07-19
+order: 1
+rank: 2
 tags: [agents, architecture]
 cover: /img/three-shapes/cover.svg
 ---

@@ -2,6 +2,8 @@
 title: "答案错了，先别怪模型"
 description: "做了一年 LLM 应用，我查过的错误答案里几乎没有一个是模型的错，全是给它的东西出了问题。context 出错的五种方式，一个能抓住大部分问题的习惯，以及为什么「模型幻觉」通常是错误的第一句话。"
 date: 2026-10-12
+order: 10
+rank: 5
 tags: [agents, engineering]
 cover: /img/context-in/where-wrong-came-from.zh.svg
 ---

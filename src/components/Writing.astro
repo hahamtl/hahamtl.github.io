@@ -3,14 +3,33 @@
 import PostList from './PostList.astro';
 import TopicChips from './TopicChips.astro';
 import { t, topicName, type Lang } from '../i18n';
-import { postsIn, topicsUsed } from '../lib/posts';
+import { postsIn, topicsUsed, byRank } from '../lib/posts';
 interface Props { lang: Lang; topic?: string | null; }
 const { lang, topic = null } = Astro.props as Props;
 const all = await postsIn(lang);
 const topics = topicsUsed(all);
-const posts = topic ? all.filter(p => p.data.tags.includes(topic)) : all;
+const posts = byRank(topic ? all.filter(p => p.data.tags.includes(topic)) : all);
 ---
 <h1>{topic ? topicName(topic, lang) : t(lang, 'writing_h1')}</h1>
 {!topic && <p class="lede">{t(lang, 'writing_lede')}</p>}
-<TopicChips lang={lang} topics={topics} current={topic} />
+<div class="listbar">
+  <TopicChips lang={lang} topics={topics} current={topic} />
+  <div class="sort" role="group" aria-label="sort">
+    <button class="on" data-sort="rank">{t(lang, 'sort_rank')}</button>
+    <button data-sort="date">{t(lang, 'sort_date')}</button>
+  </div>
+</div>
+{!topic && <p class="hint">{t(lang, 'series_hint')}</p>}
 <PostList lang={lang} posts={posts} />
+<script>
+  const list = document.getElementById('postlist');
+  document.querySelectorAll('.sort button').forEach(b => b.addEventListener('click', () => {
+    const by = b.dataset.sort;
+    const items = [...list.children];
+    items.sort((x, y) => by === 'date' ? +y.dataset.date - +x.dataset.date : +x.dataset.rank - +y.dataset.rank);
+    items.forEach(i => list.appendChild(i));
+    document.querySelectorAll('.sort button').forEach(o => o.classList.toggle('on', o === b));
+    try { localStorage.setItem('sort', by); } catch (e) {}
+  }));
+  try { const s = localStorage.getItem('sort'); if (s === 'date') document.querySelector('.sort [data-sort="date"]').click(); } catch (e) {}
+</script>
