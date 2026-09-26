@@ -28,8 +28,8 @@ const num = (p: any) => String(p.data.order).padStart(2, '0');
     <Content />
   </article>
   {(prev || next) && <nav class="pn">
-    {prev ? <a class="prev" href={postUrl(lang, splitId(prev.id).slug)}><small>{t(lang, 'prev_post')} · {num(prev)}</small>{prev.data.title}</a> : <span></span>}
-    {next ? <a class="next" href={postUrl(lang, splitId(next.id).slug)}><small>{t(lang, 'next_post')} · {num(next)}</small>{next.data.title}</a> : <span></span>}
+    {prev ? <a class="prev" href={postUrl(lang, splitId(prev.id).slug)}><small>{t(lang, 'prev_post')}</small>{prev.data.title}</a> : <span></span>}
+    {next ? <a class="next" href={postUrl(lang, splitId(next.id).slug)}><small>{t(lang, 'next_post')}</small>{next.data.title}</a> : <span></span>}
   </nav>}
   <script>
     // Give every body cell the header text so phone-width tables can stack into cards.
