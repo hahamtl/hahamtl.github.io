@@ -3,7 +3,7 @@ title: "那个变成了 tool server 的聊天机器人"
 description: "二月我在一个内部服务上做了个聊天面板，直接调 Bedrock。到三月，同一套知识变成了 MCP server，聊天面板成了可选项。六周里留下来的是什么，以及为什么从来不是聊天本身。"
 date: 2026-08-30
 order: 3
-rank: 6
+rank: 7
 tags: [agents, tooling]
 cover: /img/chatbot-to-tools/before-after.zh.svg
 ---

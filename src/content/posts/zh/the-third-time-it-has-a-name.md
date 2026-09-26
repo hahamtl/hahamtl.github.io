@@ -3,7 +3,7 @@ title: "同一个 bug 出现三次，才有了名字"
 description: "两个月里三起事故，各修各的，看着毫不相关：一条被吞掉的回复、一份被信誓旦旦捍卫的过期文档、两次编出来的代码引用。第三次有人把形状说了出来。从头到尾是同一个 bug，在兜底路径里。"
 date: 2026-10-05
 order: 9
-rank: 3
+rank: 4
 tags: [engineering, agents]
 cover: /img/third-time/timeline.zh.svg
 ---

@@ -3,7 +3,7 @@ title: "Draft until a human says so"
 description: "The cheapest way to let an agent write into shared systems is not a permission wall and not a stricter prompt. It is a status field: everything the agent creates exists, but nothing counts until a person promotes it."
 date: 2026-08-09
 order: 2
-rank: 1
+rank: 3
 tags: [agents, engineering]
 cover: /img/draft-until/two-worlds.svg
 ---
