@@ -85,3 +85,6 @@ article figure a{border:0}
   article figcaption{font-size:.8rem}
   .callout{padding:.9rem 1rem}
 }
+
+.langbar{display:block;margin:-.6rem 0 1.4rem;padding:.55rem .9rem;border:1px solid var(--accent-line, var(--line));border-radius:10px;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:.95rem;max-width:var(--measure)}
+.langbar:hover{border-color:var(--accent)}

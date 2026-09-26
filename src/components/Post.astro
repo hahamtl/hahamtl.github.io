@@ -18,8 +18,8 @@ const alt = other ? postUrl(other, slug) : null;
     <div class="meta">
       {fmtDate(post.data.date, lang, true)}
       {post.data.tags.map(tg => <a class="tag" href={topicUrl(lang, tg)}>{topicName(tg, lang)}</a>)}
-      {alt && <span class="alt">· {t(lang, 'also_in')} <a href={alt} lang={other === 'zh' ? 'zh-CN' : 'en'}>{t(lang, 'other_lang_name')}</a></span>}
     </div>
+    {alt && <a class="langbar" href={alt} lang={other === 'zh' ? 'zh-CN' : 'en'}>{t(lang, 'read_in_other')}</a>}
     <Content />
   </article>
   <script>
