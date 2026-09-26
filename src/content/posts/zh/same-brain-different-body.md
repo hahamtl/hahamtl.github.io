@@ -1,7 +1,7 @@
 ---
 title: "同一个脑子，两副身体：交互式 Agent 和无人值守 Agent 的规则不能复用"
 description: "在聊天里跑得好的技能，放进定时任务里会出问题，反过来也一样。指令可以共享，围绕指令的运行规则不能。我以为可以复用的时候，踩了两个月的坑。"
-date: 2026-09-24
+date: 2026-09-06
 order: 4
 rank: 8
 tags: [agents, architecture]

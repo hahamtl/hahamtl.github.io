@@ -1,7 +1,7 @@
 ---
 title: "Reuse before invent"
 description: "The second agent shipped in nine weeks because it owned almost none of its own plumbing. Six times we chose to be a tenant of something that already existed instead of building a peer. What that bought, what it cost, and when to build anyway."
-date: 2026-09-27
+date: 2026-09-16
 order: 7
 rank: 9
 tags: [engineering, agents]

@@ -1,7 +1,7 @@
 ---
 title: "Same brain, different body"
 description: "A skill that works in a live chat will misbehave in a scheduled job, and the other way round. The instructions can be shared. The rules around them cannot. What broke when I assumed otherwise."
-date: 2026-09-24
+date: 2026-09-06
 order: 4
 rank: 8
 tags: [agents, architecture]

@@ -1,7 +1,7 @@
 ---
 title: "The third time, it has a name"
 description: "Three incidents over two months, each fixed on its own, each looking unrelated: a dropped reply, a made-up defence of a stale document, invented code references. On the third one someone said the shape out loud. It was one bug, in the fallback, the whole time."
-date: 2026-10-05
+date: 2026-09-21
 order: 9
 rank: 4
 tags: [engineering, agents]

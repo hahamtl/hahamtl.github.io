@@ -1,7 +1,7 @@
 ---
 title: "十二年，其实一直在做同一件事"
 description: "从测试自动化开发做到给工程团队做 AI Agent，履历上是四个头衔、三家公司。实际上从第一周起就是一件事：找到人和系统之间的摩擦，把它去掉。"
-date: 2026-10-19
+date: 2026-09-25
 order: 11
 rank: 1
 tags: [career, tooling]
