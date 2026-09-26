@@ -14,6 +14,7 @@ export const TOPICS: Record<string, Record<Lang, string>> = {
   architecture:{ en: 'architecture',zh: '架构' },
   engineering: { en: 'engineering', zh: '工程实践' },
   career:      { en: 'career',      zh: '职业' },
+  testing:     { en: 'testing',     zh: '测试' },
   meta:        { en: 'meta',        zh: '关于本站' },
 };
 export const topicName = (key: string, lang: Lang) => TOPICS[key]?.[lang] ?? key;

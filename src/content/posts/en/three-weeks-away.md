@@ -3,7 +3,7 @@ title: "Three weeks away, a new backend"
 description: "I came back from leave to the same chat surface and a completely different system under it: about twenty architectural changes, none with my name on them. Reading the change log was not catching up. What I did instead, and the bug that only showed up because I did."
 date: 2026-09-19
 order: 8
-rank: 11
+rank: 16
 tags: [career, engineering]
 cover: /img/back-from-leave/before-after.svg
 ---

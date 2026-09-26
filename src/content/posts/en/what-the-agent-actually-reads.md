@@ -3,7 +3,7 @@ title: "What the agent actually reads"
 description: "A ticket came out with an empty description because the tool said the field was optional and the rule that said otherwise was in a file the agent never opened. Four things I now treat as safety design when giving an agent a tool: its words, its silences, its name, and its lock."
 date: 2026-09-10
 order: 5
-rank: 6
+rank: 7
 tags: [agents, tooling]
 cover: /img/agent-tools/who-wins.svg
 ---

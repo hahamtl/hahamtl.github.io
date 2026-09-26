@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7f8a84"/></marker></defs>
+  <rect width="1200" height="380" fill="#fbfbf9"/>
+  <text x="300" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#a13333" font-weight="600">BEFORE · TWO SOURCES OF TRUTH</text>
+  <g font-size="13" fill="#182420">
+    <rect x="80" y="70" width="200" height="54" rx="10" fill="#182420"/><text x="180" y="93" text-anchor="middle" fill="#ffffff" font-weight="600">the job</text><text x="180" y="112" text-anchor="middle" fill="#cfd8d3" font-size="12">running, 4 minutes in</text>
+    <rect x="80" y="150" width="200" height="54" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="180" y="173" text-anchor="middle" font-weight="600">run record A</text><text x="180" y="192" text-anchor="middle" fill="#44524c" font-size="12">status = running</text>
+    <rect x="320" y="150" width="200" height="54" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="420" y="173" text-anchor="middle" font-weight="600">record B (the gate reads)</text><text x="420" y="192" text-anchor="middle" fill="#44524c" font-size="12">status = not started</text>
+    <rect x="320" y="230" width="200" height="54" rx="10" fill="#f8e6e6" stroke="#a13333" stroke-width="2"/><text x="420" y="253" text-anchor="middle" fill="#a13333" font-weight="700">"nothing has started,</text><text x="420" y="272" text-anchor="middle" fill="#a13333" font-weight="700">please approve"</text>
+    <path d="M180 126 v22" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <path d="M420 206 v22" fill="none" stroke="#7f8a84" stroke-width="1.6" marker-end="url(#a)"/>
+    <rect x="80" y="230" width="200" height="54" rx="10" fill="#faf0da" stroke="#a06b12"/><text x="180" y="253" text-anchor="middle" font-weight="600">the user</text><text x="180" y="272" text-anchor="middle" fill="#44524c" font-size="12">approves again · pays twice</text>
+    <path d="M318 257 h-36" fill="none" stroke="#a13333" stroke-width="1.6" marker-end="url(#a)"/>
+  </g>
+  <text x="300" y="330" text-anchor="middle" font-size="12.5" fill="#7f8a84">both records were right about themselves · the person saw only one</text>
+  <line x1="600" y1="40" x2="600" y2="340" stroke="#e4e8e4"/>
+  <text x="900" y="44" text-anchor="middle" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">AFTER · ONE FUNCTION</text>
+  <g font-size="13" fill="#182420">
+    <rect x="780" y="140" width="240" height="60" rx="12" fill="#e3f2ea" stroke="#0e7a4d" stroke-width="2"/><text x="900" y="165" text-anchor="middle" font-weight="700" font-family="ui-monospace, SF Mono, Menlo, monospace">runState(id)</text><text x="900" y="186" text-anchor="middle" fill="#44524c" font-size="12">the only place state is read</text>
+    <rect x="660" y="240" width="150" height="50" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="735" y="270" text-anchor="middle">the launcher</text>
+    <rect x="825" y="240" width="150" height="50" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="900" y="270" text-anchor="middle">the gate</text>
+    <rect x="990" y="240" width="150" height="50" rx="10" fill="#ffffff" stroke="#c9d0cb"/><text x="1065" y="270" text-anchor="middle">the status line</text>
+    <path d="M735 238 v-20 H900 v-16" fill="none" stroke="#0e7a4d" stroke-width="1.6" marker-end="url(#a)"/>
+    <path d="M900 238 v-36" fill="none" stroke="#0e7a4d" stroke-width="1.6" marker-end="url(#a)"/>
+    <path d="M1065 238 v-20 H900" fill="none" stroke="#0e7a4d" stroke-width="1.6"/>
+    <rect x="740" y="70" width="320" height="46" rx="10" fill="#ffffff" stroke="#0e7a4d"/><text x="900" y="90" text-anchor="middle" font-size="12.5" font-weight="600">final update = one short line that cannot fail</text><text x="900" y="107" text-anchor="middle" font-size="11.5" fill="#44524c">the long summary is attached afterwards</text>
+  </g>
+  <text x="900" y="330" text-anchor="middle" font-size="12.5" fill="#7f8a84">the message cannot disagree with the job, by construction</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Avenir Next, Helvetica Neue, Segoe UI, sans-serif">
+  <rect width="1200" height="400" fill="#fbfbf9"/>
+  <text x="80" y="44" font-size="14" fill="#182420" font-weight="700">one afternoon, one shared token</text>
+  <text x="80" y="64" font-size="12.5" fill="#7f8a84">each restart killed the process but left its connection registered · events were delivered to a random connection</text>
+  <g font-size="12" fill="#182420">
+    <!-- restarts as columns; connections stacked -->
+    <g transform="translate(80,90)">
+      <text x="0" y="0" font-size="11.5" fill="#7f8a84">restart →</text>
+    </g>
+  </g>
+  <g font-size="11.5">
+    <!-- columns x positions -->
+    <g id="cols">
+      <!-- col k at x = 130 + k*105, live connection on top, ghosts below -->
+    </g>
+  </g>
+  <g font-size="11.5" fill="#182420">
+    <!-- k=0 -->
+    <rect x="130" y="100" width="70" height="22" rx="5" fill="#0e7a4d"/><text x="165" y="116" text-anchor="middle" fill="#ffffff" font-weight="700">live</text><text x="165" y="330" text-anchor="middle" fill="#0e7a4d" font-weight="700">100%</text><text x="165" y="348" text-anchor="middle" fill="#7f8a84">start</text>
+    <!-- k=1 -->
+    <rect x="235" y="100" width="70" height="22" rx="5" fill="#0e7a4d"/><text x="270" y="116" text-anchor="middle" fill="#ffffff" font-weight="700">live</text>
+    <rect x="235" y="126" width="70" height="22" rx="5" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"/><text x="270" y="142" text-anchor="middle" fill="#7f8a84">ghost</text>
+    <text x="270" y="330" text-anchor="middle" fill="#a06b12" font-weight="700">50%</text><text x="270" y="348" text-anchor="middle" fill="#7f8a84">1 restart</text>
+    <!-- k=2 -->
+    <rect x="340" y="100" width="70" height="22" rx="5" fill="#0e7a4d"/><text x="375" y="116" text-anchor="middle" fill="#ffffff" font-weight="700">live</text>
+    <rect x="340" y="126" width="70" height="22" rx="5" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"/><rect x="340" y="152" width="70" height="22" rx="5" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"/>
+    <text x="375" y="330" text-anchor="middle" fill="#a06b12" font-weight="700">33%</text><text x="375" y="348" text-anchor="middle" fill="#7f8a84">2</text>
+    <!-- k=3 -->
+    <rect x="445" y="100" width="70" height="22" rx="5" fill="#0e7a4d"/><text x="480" y="116" text-anchor="middle" fill="#ffffff" font-weight="700">live</text>
+    <rect x="445" y="126" width="70" height="22" rx="5" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"/><rect x="445" y="152" width="70" height="22" rx="5" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"/><rect x="445" y="178" width="70" height="22" rx="5" fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"/>
+    <text x="480" y="330" text-anchor="middle" fill="#a06b12" font-weight="700">25%</text><text x="480" y="348" text-anchor="middle" fill="#7f8a84">3</text>
+    <!-- k=5 (skip) -->
+    <text x="585" y="200" text-anchor="middle" fill="#7f8a84" font-size="18">…</text><text x="585" y="348" text-anchor="middle" fill="#7f8a84">"once more"</text>
+    <!-- k=8 -->
+    <rect x="655" y="100" width="70" height="22" rx="5" fill="#0e7a4d"/><text x="690" y="116" text-anchor="middle" fill="#ffffff" font-weight="700">live</text>
+    <g fill="#f4f6f4" stroke="#c9d0cb" stroke-dasharray="4 3"><rect x="655" y="126" width="70" height="22" rx="5"/><rect x="655" y="152" width="70" height="22" rx="5"/><rect x="655" y="178" width="70" height="22" rx="5"/><rect x="655" y="204" width="70" height="22" rx="5"/><rect x="655" y="230" width="70" height="22" rx="5"/><rect x="655" y="256" width="70" height="22" rx="5"/><rect x="655" y="282" width="70" height="22" rx="5"/><rect x="655" y="308" width="70" height="14" rx="5"/></g>
+    <text x="690" y="348" text-anchor="middle" fill="#a13333" font-weight="700">~11%</text><text x="690" y="366" text-anchor="middle" fill="#7f8a84">8 restarts · 9 connections</text>
+  </g>
+  <line x1="780" y1="80" x2="780" y2="370" stroke="#e4e8e4"/>
+  <g font-size="12.5" fill="#182420">
+    <text x="810" y="104" font-size="13" letter-spacing="2" fill="#0e7a4d" font-weight="600">THE FIX</text>
+    <rect x="810" y="120" width="330" height="44" rx="10" fill="#e3f2ea" stroke="#0e7a4d"/><text x="975" y="147" text-anchor="middle" font-weight="600">graceful shutdown: close the socket before exit</text>
+    <rect x="810" y="174" width="330" height="44" rx="10" fill="#e3f2ea" stroke="#0e7a4d"/><text x="975" y="201" text-anchor="middle" font-weight="600">client library that detects a timed-out connection</text>
+    <rect x="810" y="228" width="330" height="44" rx="10" fill="#e3f2ea" stroke="#0e7a4d"/><text x="975" y="255" text-anchor="middle" font-weight="600">then stop restarting · let the ghosts expire</text>
+    <rect x="810" y="296" width="330" height="60" rx="10" fill="#ffffff" stroke="#a06b12"/><text x="975" y="320" text-anchor="middle" font-weight="700">the clue we read too late</text><text x="975" y="341" text-anchor="middle" fill="#44524c" font-size="12">output OK · buttons OK · input dead = connection layer</text>
+  </g>
+</svg>

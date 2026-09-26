@@ -3,7 +3,7 @@ title: "先复用，再自己做：第二个 Agent 九周上线，靠的是现�
 description: "第二个 Agent 九周就发布了，因为它几乎没有一样基础设施是自己的。六次我们都选择住进已有的系统，而不是在旁边再建一套。这么做换来了什么、付出了什么、什么时候该自己做。"
 date: 2026-09-16
 order: 7
-rank: 9
+rank: 12
 tags: [engineering, agents]
 cover: /img/reuse/peer-vs-tenant.zh.svg
 ---
