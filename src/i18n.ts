@@ -56,7 +56,7 @@ export const UI: Record<Lang, Record<string, string>> = {
     other_lang_name: '英文原文',
     footer_left: '仅代表个人观点',
     footer_right: '内容是 git 里的 Markdown · Astro 构建 · 可托管在任何地方',
-    read_in_other: '本文译自英文原文，点这里阅读原文 →',
+    read_in_other: '本文有英文原文，点这里阅读 →',
     no_translation: '',
   },
 };
