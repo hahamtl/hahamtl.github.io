@@ -55,3 +55,33 @@ header.site nav a.lang{border:1px solid var(--line);border-radius:99px;padding:.
 header.site nav a.lang:hover{border-color:var(--accent)}
 :lang(zh-CN) body,html[lang="zh-CN"] body{font-family:"Avenir Next","Helvetica Neue","PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif;line-height:1.75}
 html[lang="zh-CN"] h1,html[lang="zh-CN"] h2{letter-spacing:0}
+
+/* ---- responsive (2026-09-25) ---- */
+html,body{overflow-x:hidden}
+header.site{flex-wrap:wrap;row-gap:.6rem}
+header.site nav{display:flex;flex-wrap:wrap;gap:.35rem 1.1rem;align-items:center}
+header.site nav a{margin-left:0}
+.meta{display:flex;flex-wrap:wrap;gap:.3rem .5rem;align-items:center}
+.meta .tag{margin-left:0}
+article figure a{border:0}
+@media (max-width:640px){
+  .wrap{padding:0 1.1rem}
+  header.site{padding:1.1rem 0 .8rem}
+  header.site .brand small{font-size:.75rem}
+  h1{font-size:1.55rem}
+  h2{font-size:1.2rem;margin-top:1.8rem}
+  .lede{font-size:1.05rem}
+  ul.posts a.t{font-size:1.1rem}
+  /* tables become stacked cards; labels come from the header via data-label */
+  article table,article thead,article tbody,article tr,article th,article td{display:block;width:100%;box-sizing:border-box}
+  article table{overflow:visible;font-size:.95rem}
+  article thead{display:none}
+  article tr{border:1px solid var(--line);border-radius:12px;padding:.7rem .9rem;margin:0 0 .75rem;background:var(--bg)}
+  article tr:last-child td{border-bottom:0}
+  article td{border:0;padding:.3rem 0;white-space:normal;line-height:1.5}
+  article td:first-child{font-weight:700;color:var(--fg);border-bottom:1px solid var(--line);padding-bottom:.45rem;margin-bottom:.3rem;white-space:normal}
+  article td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;color:var(--muted);font-size:.78rem;letter-spacing:.03em;text-transform:uppercase;margin-bottom:.05rem}
+  article td:empty{display:none}
+  article figcaption{font-size:.8rem}
+  .callout{padding:.9rem 1rem}
+}
