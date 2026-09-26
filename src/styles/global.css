@@ -80,7 +80,7 @@ article figure a{border:0}
   article tr:last-child td{border-bottom:0}
   article td{border:0;padding:.3rem 0;white-space:normal;line-height:1.5}
   article td:first-child{font-weight:700;color:var(--fg);border-bottom:1px solid var(--line);padding-bottom:.45rem;margin-bottom:.3rem;white-space:normal}
-  article td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;color:var(--muted);font-size:.78rem;letter-spacing:.03em;text-transform:uppercase;margin-bottom:.05rem}
+  article td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;color:var(--muted);font-size:.78rem;letter-spacing:.02em;margin-bottom:.05rem}
   article td:empty{display:none}
   article figcaption{font-size:.8rem}
   .callout{padding:.9rem 1rem}
